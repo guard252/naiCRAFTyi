@@ -1,0 +1,3 @@
+/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir
+/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/edit_cache.dir

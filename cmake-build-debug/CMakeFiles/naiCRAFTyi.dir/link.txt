@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Tools.cpp.o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VAO.cpp.o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ShaderProgram.cpp.o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.o  -o naiCRAFTyi -lglfw -lGL -lGLEW 

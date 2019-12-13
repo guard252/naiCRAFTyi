@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/naiCRAFTyi.dir/main.cpp.o  -o naiCRAFTyi -lglfw -lGL -lGLEW 

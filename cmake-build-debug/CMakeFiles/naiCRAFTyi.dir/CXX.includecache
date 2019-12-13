@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
+GL/glew.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/GL/glew.h
+iostream
+-
+csignal
+-
+
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.cpp
+VAO.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h
+
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h
+Tools.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
+VBLayout.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
+VBO.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
+
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
+vector
+-
+cassert
+-
+Tools.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
+
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
+Tools.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
+
