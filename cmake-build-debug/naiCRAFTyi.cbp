@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="naiCRAFTyi"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/danylo/dev/naiCRAFTyi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/danylo/dev/naiCRAFTyi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naiCRAFTyi">
+				<Option output="/home/danylo/dev/naiCRAFTyi/cmake-build-debug/naiCRAFTyi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danylo/dev/naiCRAFTyi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 naiCRAFTyi"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naiCRAFTyi/fast">
+				<Option output="/home/danylo/dev/naiCRAFTyi/cmake-build-debug/naiCRAFTyi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/danylo/dev/naiCRAFTyi/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 naiCRAFTyi/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/danylo/dev/naiCRAFTyi/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/danylo/dev/naiCRAFTyi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Block.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Block.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/GameObject.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/CubeModel.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/CubeModel.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/Model.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/Model.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/main.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

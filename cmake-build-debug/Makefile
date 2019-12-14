@@ -258,6 +258,87 @@ src/GLAbstraction/VBO.cpp.s:
 	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.s
 .PHONY : src/GLAbstraction/VBO.cpp.s
 
+src/Game/Block.o: src/Game/Block.cpp.o
+
+.PHONY : src/Game/Block.o
+
+# target to build an object file
+src/Game/Block.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.o
+.PHONY : src/Game/Block.cpp.o
+
+src/Game/Block.i: src/Game/Block.cpp.i
+
+.PHONY : src/Game/Block.i
+
+# target to preprocess a source file
+src/Game/Block.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.i
+.PHONY : src/Game/Block.cpp.i
+
+src/Game/Block.s: src/Game/Block.cpp.s
+
+.PHONY : src/Game/Block.s
+
+# target to generate assembly for a file
+src/Game/Block.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.s
+.PHONY : src/Game/Block.cpp.s
+
+src/Game/Models/CubeModel.o: src/Game/Models/CubeModel.cpp.o
+
+.PHONY : src/Game/Models/CubeModel.o
+
+# target to build an object file
+src/Game/Models/CubeModel.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o
+.PHONY : src/Game/Models/CubeModel.cpp.o
+
+src/Game/Models/CubeModel.i: src/Game/Models/CubeModel.cpp.i
+
+.PHONY : src/Game/Models/CubeModel.i
+
+# target to preprocess a source file
+src/Game/Models/CubeModel.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.i
+.PHONY : src/Game/Models/CubeModel.cpp.i
+
+src/Game/Models/CubeModel.s: src/Game/Models/CubeModel.cpp.s
+
+.PHONY : src/Game/Models/CubeModel.s
+
+# target to generate assembly for a file
+src/Game/Models/CubeModel.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.s
+.PHONY : src/Game/Models/CubeModel.cpp.s
+
+src/Game/Models/Model.o: src/Game/Models/Model.cpp.o
+
+.PHONY : src/Game/Models/Model.o
+
+# target to build an object file
+src/Game/Models/Model.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o
+.PHONY : src/Game/Models/Model.cpp.o
+
+src/Game/Models/Model.i: src/Game/Models/Model.cpp.i
+
+.PHONY : src/Game/Models/Model.i
+
+# target to preprocess a source file
+src/Game/Models/Model.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.i
+.PHONY : src/Game/Models/Model.cpp.i
+
+src/Game/Models/Model.s: src/Game/Models/Model.cpp.s
+
+.PHONY : src/Game/Models/Model.s
+
+# target to generate assembly for a file
+src/Game/Models/Model.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.s
+.PHONY : src/Game/Models/Model.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -309,6 +390,15 @@ help:
 	@echo "... src/GLAbstraction/VBO.o"
 	@echo "... src/GLAbstraction/VBO.i"
 	@echo "... src/GLAbstraction/VBO.s"
+	@echo "... src/Game/Block.o"
+	@echo "... src/Game/Block.i"
+	@echo "... src/Game/Block.s"
+	@echo "... src/Game/Models/CubeModel.o"
+	@echo "... src/Game/Models/CubeModel.i"
+	@echo "... src/Game/Models/CubeModel.s"
+	@echo "... src/Game/Models/Model.o"
+	@echo "... src/Game/Models/Model.i"
+	@echo "... src/Game/Models/Model.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

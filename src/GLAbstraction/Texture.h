@@ -11,8 +11,8 @@ namespace GL {
 
     public:
         Texture(std::string filename);
-        void Bind(GLuint slot = 0);
-        void UnBind();
+        void Bind(GLuint slot = 0)const;
+        void UnBind()const;
         ~Texture();
     };
 }

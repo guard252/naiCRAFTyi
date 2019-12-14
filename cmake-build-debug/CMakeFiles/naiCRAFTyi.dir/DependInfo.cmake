@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Tools.cpp.o"
   "/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VAO.cpp.o"
   "/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Game/Block.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Game/Models/CubeModel.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Game/Models/Model.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o"
   "/home/danylo/dev/naiCRAFTyi/src/main.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

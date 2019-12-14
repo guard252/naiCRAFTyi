@@ -17,6 +17,20 @@ file(GLOB_RECURSE HEADER_FILES
 #add_subdirectory(src)
 add_executable(naiCRAFTyi src/main.cpp
         src/GLAbstraction/Tools.cpp
-        src/GLAbstraction/VBO.cpp src/GLAbstraction/VAO.cpp src/GLAbstraction/VAO.h src/GLAbstraction/VBLayout.h src/GLAbstraction/ShaderProgram.cpp src/GLAbstraction/ShaderProgram.h src/GLAbstraction/Texture.cpp src/GLAbstraction/Texture.h)
+        src/GLAbstraction/VBO.cpp
+        src/GLAbstraction/VAO.cpp
+        src/GLAbstraction/VAO.h
+        src/GLAbstraction/VBLayout.h
+        src/GLAbstraction/ShaderProgram.cpp
+        src/GLAbstraction/ShaderProgram.h
+        src/GLAbstraction/Texture.cpp
+        src/GLAbstraction/Texture.h
+        src/Game/GameObject.h
+        src/Game/Block.cpp
+        src/Game/Block.h
+        src/Game/Models/Model.cpp
+        src/Game/Models/Model.h
+        src/Game/Models/CubeModel.cpp
+        src/Game/Models/CubeModel.h)
 
 target_link_libraries(naiCRAFTyi -lglfw -lGL -lGLEW)

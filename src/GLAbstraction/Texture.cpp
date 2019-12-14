@@ -23,12 +23,12 @@ GL::Texture::Texture(std::string filename) {
     if(pixelData) stbi_image_free(pixelData);
 }
 
-void GL::Texture::Bind(GLuint slot) {
+void GL::Texture::Bind(GLuint slot)const {
     GLCall(glActiveTexture(GL_TEXTURE0 + slot));
     GLCall(glBindTexture(GL_TEXTURE_2D, rendererID));
 }
 
-void GL::Texture::UnBind() {
+void GL::Texture::UnBind()const {
     GLCall(glBindTexture(GL_TEXTURE_2D, 0));
 }
 

@@ -22,11 +22,33 @@ CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o: ../src/GLAbstraction/Tool
 CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o: ../src/GLAbstraction/VBO.cpp
 CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o: ../src/GLAbstraction/VBO.h
 
+CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.o: ../src/Game/Block.cpp
+CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.o: ../src/Game/Block.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.o: ../src/Game/GameObject.h
+
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/GLAbstraction/Texture.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/GLAbstraction/Tools.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/GLAbstraction/VAO.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/GLAbstraction/VBLayout.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/GLAbstraction/VBO.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/Game/Models/CubeModel.cpp
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/Game/Models/CubeModel.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o: ../src/Game/Models/Model.h
+
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o: ../src/GLAbstraction/Tools.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o: ../src/GLAbstraction/VAO.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o: ../src/GLAbstraction/VBLayout.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o: ../src/GLAbstraction/VBO.h
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o: ../src/Game/Models/Model.cpp
+CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o: ../src/Game/Models/Model.h
+
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/ShaderProgram.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/Texture.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/Tools.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/VAO.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/VBLayout.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/VBO.h
+CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/Game/Models/CubeModel.h
+CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/Game/Models/Model.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/main.cpp
 
