@@ -27,12 +27,12 @@ namespace GL
         GLCall(glDeleteShader(fragID));
     }
 
-    void ShaderProgram::Bind()
+    void ShaderProgram::Bind()const
     {
         GLCall(glUseProgram(rendererID));
     }
 
-    void ShaderProgram::UnBind()
+    void ShaderProgram::UnBind()const
     {
         GLCall(glUseProgram(0));
     }
@@ -64,7 +64,7 @@ namespace GL
         GLCall(glDeleteProgram(rendererID));
     }
 
-    void ShaderProgram::SetUniform1f(std::string name, GLfloat el) {
+    void ShaderProgram::SetUniform1f(std::string name, GLfloat el)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -72,7 +72,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniform2f(std::string name, GLfloat el1, GLfloat el2) {
+    void ShaderProgram::SetUniform2f(std::string name, GLfloat el1, GLfloat el2)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -80,7 +80,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniform3f(std::string name, GLfloat el1, GLfloat el2, GLfloat el3) {
+    void ShaderProgram::SetUniform3f(std::string name, GLfloat el1, GLfloat el2, GLfloat el3)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -88,7 +88,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniform4f(std::string name, GLfloat el1, GLfloat el2, GLfloat el3, GLfloat el4) {
+    void ShaderProgram::SetUniform4f(std::string name, GLfloat el1, GLfloat el2, GLfloat el3, GLfloat el4)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -96,7 +96,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniform1i(std::string name, GLint el) {
+    void ShaderProgram::SetUniform1i(std::string name, GLint el)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -104,7 +104,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniform2i(std::string name, GLint el1, GLint el2) {
+    void ShaderProgram::SetUniform2i(std::string name, GLint el1, GLint el2)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -112,7 +112,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniform3i(std::string name, GLint el1, GLint el2, GLint el3) {
+    void ShaderProgram::SetUniform3i(std::string name, GLint el1, GLint el2, GLint el3)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -120,7 +120,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniform4i(std::string name, GLint el1, GLint el2, GLint el3, GLint el4) {
+    void ShaderProgram::SetUniform4i(std::string name, GLint el1, GLint el2, GLint el3, GLint el4)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -128,7 +128,7 @@ namespace GL
         }
     }
 
-    void ShaderProgram::SetUniformMatr4f(std::string name, glm::mat4 matrix) {
+    void ShaderProgram::SetUniformMatr4f(std::string name, glm::mat4 matrix)const {
         GLint location = GetUniformLocation(name);
         if(location != -1)
         {
@@ -136,7 +136,7 @@ namespace GL
         }
     }
 
-    GLint ShaderProgram::GetUniformLocation(std::string name) {
+    GLint ShaderProgram::GetUniformLocation(std::string name)const {
         std::unordered_map<std::string, GLint>::iterator it;
         if ((it = cachedUniforms.find(name)) == cachedUniforms.end()) {
             GLCall(GLint location = glGetUniformLocation(rendererID, name.c_str()));

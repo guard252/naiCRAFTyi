@@ -258,86 +258,167 @@ src/GLAbstraction/VBO.cpp.s:
 	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.s
 .PHONY : src/GLAbstraction/VBO.cpp.s
 
-src/Game/Block.o: src/Game/Block.cpp.o
+src/Gameplay/Game.o: src/Gameplay/Game.cpp.o
 
-.PHONY : src/Game/Block.o
-
-# target to build an object file
-src/Game/Block.cpp.o:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.o
-.PHONY : src/Game/Block.cpp.o
-
-src/Game/Block.i: src/Game/Block.cpp.i
-
-.PHONY : src/Game/Block.i
-
-# target to preprocess a source file
-src/Game/Block.cpp.i:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.i
-.PHONY : src/Game/Block.cpp.i
-
-src/Game/Block.s: src/Game/Block.cpp.s
-
-.PHONY : src/Game/Block.s
-
-# target to generate assembly for a file
-src/Game/Block.cpp.s:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.s
-.PHONY : src/Game/Block.cpp.s
-
-src/Game/Models/CubeModel.o: src/Game/Models/CubeModel.cpp.o
-
-.PHONY : src/Game/Models/CubeModel.o
+.PHONY : src/Gameplay/Game.o
 
 # target to build an object file
-src/Game/Models/CubeModel.cpp.o:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o
-.PHONY : src/Game/Models/CubeModel.cpp.o
+src/Gameplay/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o
+.PHONY : src/Gameplay/Game.cpp.o
 
-src/Game/Models/CubeModel.i: src/Game/Models/CubeModel.cpp.i
+src/Gameplay/Game.i: src/Gameplay/Game.cpp.i
 
-.PHONY : src/Game/Models/CubeModel.i
+.PHONY : src/Gameplay/Game.i
 
 # target to preprocess a source file
-src/Game/Models/CubeModel.cpp.i:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.i
-.PHONY : src/Game/Models/CubeModel.cpp.i
+src/Gameplay/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.i
+.PHONY : src/Gameplay/Game.cpp.i
 
-src/Game/Models/CubeModel.s: src/Game/Models/CubeModel.cpp.s
+src/Gameplay/Game.s: src/Gameplay/Game.cpp.s
 
-.PHONY : src/Game/Models/CubeModel.s
+.PHONY : src/Gameplay/Game.s
 
 # target to generate assembly for a file
-src/Game/Models/CubeModel.cpp.s:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.s
-.PHONY : src/Game/Models/CubeModel.cpp.s
+src/Gameplay/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.s
+.PHONY : src/Gameplay/Game.cpp.s
 
-src/Game/Models/Model.o: src/Game/Models/Model.cpp.o
+src/Gameplay/GameObjects/DirtBlock.o: src/Gameplay/GameObjects/DirtBlock.cpp.o
 
-.PHONY : src/Game/Models/Model.o
+.PHONY : src/Gameplay/GameObjects/DirtBlock.o
 
 # target to build an object file
-src/Game/Models/Model.cpp.o:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o
-.PHONY : src/Game/Models/Model.cpp.o
+src/Gameplay/GameObjects/DirtBlock.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o
+.PHONY : src/Gameplay/GameObjects/DirtBlock.cpp.o
 
-src/Game/Models/Model.i: src/Game/Models/Model.cpp.i
+src/Gameplay/GameObjects/DirtBlock.i: src/Gameplay/GameObjects/DirtBlock.cpp.i
 
-.PHONY : src/Game/Models/Model.i
+.PHONY : src/Gameplay/GameObjects/DirtBlock.i
 
 # target to preprocess a source file
-src/Game/Models/Model.cpp.i:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.i
-.PHONY : src/Game/Models/Model.cpp.i
+src/Gameplay/GameObjects/DirtBlock.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.i
+.PHONY : src/Gameplay/GameObjects/DirtBlock.cpp.i
 
-src/Game/Models/Model.s: src/Game/Models/Model.cpp.s
+src/Gameplay/GameObjects/DirtBlock.s: src/Gameplay/GameObjects/DirtBlock.cpp.s
 
-.PHONY : src/Game/Models/Model.s
+.PHONY : src/Gameplay/GameObjects/DirtBlock.s
 
 # target to generate assembly for a file
-src/Game/Models/Model.cpp.s:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.s
-.PHONY : src/Game/Models/Model.cpp.s
+src/Gameplay/GameObjects/DirtBlock.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.s
+.PHONY : src/Gameplay/GameObjects/DirtBlock.cpp.s
+
+src/Gameplay/Models/CubeModel.o: src/Gameplay/Models/CubeModel.cpp.o
+
+.PHONY : src/Gameplay/Models/CubeModel.o
+
+# target to build an object file
+src/Gameplay/Models/CubeModel.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o
+.PHONY : src/Gameplay/Models/CubeModel.cpp.o
+
+src/Gameplay/Models/CubeModel.i: src/Gameplay/Models/CubeModel.cpp.i
+
+.PHONY : src/Gameplay/Models/CubeModel.i
+
+# target to preprocess a source file
+src/Gameplay/Models/CubeModel.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.i
+.PHONY : src/Gameplay/Models/CubeModel.cpp.i
+
+src/Gameplay/Models/CubeModel.s: src/Gameplay/Models/CubeModel.cpp.s
+
+.PHONY : src/Gameplay/Models/CubeModel.s
+
+# target to generate assembly for a file
+src/Gameplay/Models/CubeModel.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.s
+.PHONY : src/Gameplay/Models/CubeModel.cpp.s
+
+src/Gameplay/Models/Model.o: src/Gameplay/Models/Model.cpp.o
+
+.PHONY : src/Gameplay/Models/Model.o
+
+# target to build an object file
+src/Gameplay/Models/Model.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o
+.PHONY : src/Gameplay/Models/Model.cpp.o
+
+src/Gameplay/Models/Model.i: src/Gameplay/Models/Model.cpp.i
+
+.PHONY : src/Gameplay/Models/Model.i
+
+# target to preprocess a source file
+src/Gameplay/Models/Model.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.i
+.PHONY : src/Gameplay/Models/Model.cpp.i
+
+src/Gameplay/Models/Model.s: src/Gameplay/Models/Model.cpp.s
+
+.PHONY : src/Gameplay/Models/Model.s
+
+# target to generate assembly for a file
+src/Gameplay/Models/Model.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.s
+.PHONY : src/Gameplay/Models/Model.cpp.s
+
+src/Player/Camera.o: src/Player/Camera.cpp.o
+
+.PHONY : src/Player/Camera.o
+
+# target to build an object file
+src/Player/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o
+.PHONY : src/Player/Camera.cpp.o
+
+src/Player/Camera.i: src/Player/Camera.cpp.i
+
+.PHONY : src/Player/Camera.i
+
+# target to preprocess a source file
+src/Player/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.i
+.PHONY : src/Player/Camera.cpp.i
+
+src/Player/Camera.s: src/Player/Camera.cpp.s
+
+.PHONY : src/Player/Camera.s
+
+# target to generate assembly for a file
+src/Player/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.s
+.PHONY : src/Player/Camera.cpp.s
+
+src/Player/Controller.o: src/Player/Controller.cpp.o
+
+.PHONY : src/Player/Controller.o
+
+# target to build an object file
+src/Player/Controller.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o
+.PHONY : src/Player/Controller.cpp.o
+
+src/Player/Controller.i: src/Player/Controller.cpp.i
+
+.PHONY : src/Player/Controller.i
+
+# target to preprocess a source file
+src/Player/Controller.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.i
+.PHONY : src/Player/Controller.cpp.i
+
+src/Player/Controller.s: src/Player/Controller.cpp.s
+
+.PHONY : src/Player/Controller.s
+
+# target to generate assembly for a file
+src/Player/Controller.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.s
+.PHONY : src/Player/Controller.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -390,15 +471,24 @@ help:
 	@echo "... src/GLAbstraction/VBO.o"
 	@echo "... src/GLAbstraction/VBO.i"
 	@echo "... src/GLAbstraction/VBO.s"
-	@echo "... src/Game/Block.o"
-	@echo "... src/Game/Block.i"
-	@echo "... src/Game/Block.s"
-	@echo "... src/Game/Models/CubeModel.o"
-	@echo "... src/Game/Models/CubeModel.i"
-	@echo "... src/Game/Models/CubeModel.s"
-	@echo "... src/Game/Models/Model.o"
-	@echo "... src/Game/Models/Model.i"
-	@echo "... src/Game/Models/Model.s"
+	@echo "... src/Gameplay/Game.o"
+	@echo "... src/Gameplay/Game.i"
+	@echo "... src/Gameplay/Game.s"
+	@echo "... src/Gameplay/GameObjects/DirtBlock.o"
+	@echo "... src/Gameplay/GameObjects/DirtBlock.i"
+	@echo "... src/Gameplay/GameObjects/DirtBlock.s"
+	@echo "... src/Gameplay/Models/CubeModel.o"
+	@echo "... src/Gameplay/Models/CubeModel.i"
+	@echo "... src/Gameplay/Models/CubeModel.s"
+	@echo "... src/Gameplay/Models/Model.o"
+	@echo "... src/Gameplay/Models/Model.i"
+	@echo "... src/Gameplay/Models/Model.s"
+	@echo "... src/Player/Camera.o"
+	@echo "... src/Player/Camera.i"
+	@echo "... src/Player/Camera.s"
+	@echo "... src/Player/Controller.o"
+	@echo "... src/Player/Controller.i"
+	@echo "... src/Player/Controller.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

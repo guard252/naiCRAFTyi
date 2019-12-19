@@ -3,12 +3,13 @@
 #include "glm/glm.hpp"
 namespace Craft {
     class GameObject {
+    protected:
         glm::mat4 model;
     public:
         virtual void Draw() = 0;
         virtual void SetModel(const glm::mat4& _model){ model = _model; }
         const glm::mat4& GetModel()const { return model; };
-        virtual ~GameObject();
+        virtual ~GameObject(){}
     };
 }
 

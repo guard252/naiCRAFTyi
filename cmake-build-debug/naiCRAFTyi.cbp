@@ -117,25 +117,46 @@
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Block.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Block.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/GameObject.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Block.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/CubeModel.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/CubeModel.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/Model.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/GameObject.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Game/Models/Model.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Player/Camera.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Player/Camera.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Player/Controller.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Player/Controller.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/main.cpp">

@@ -10,7 +10,7 @@ namespace Craft {
         GL::VBLayout layout;
         GL::VBO *buffer{nullptr};
     public:
-        virtual void Draw() = 0;
+        virtual void Draw(){}
         Model(){}
         virtual ~Model(){}
     };

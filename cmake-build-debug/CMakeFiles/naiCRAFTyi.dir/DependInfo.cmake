@@ -9,9 +9,12 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Tools.cpp.o"
   "/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VAO.cpp.o"
   "/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o"
-  "/home/danylo/dev/naiCRAFTyi/src/Game/Block.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Game/Block.cpp.o"
-  "/home/danylo/dev/naiCRAFTyi/src/Game/Models/CubeModel.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Game/Models/CubeModel.cpp.o"
-  "/home/danylo/dev/naiCRAFTyi/src/Game/Models/Model.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Game/Models/Model.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Player/Camera.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o"
+  "/home/danylo/dev/naiCRAFTyi/src/Player/Controller.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o"
   "/home/danylo/dev/naiCRAFTyi/src/main.cpp" "/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

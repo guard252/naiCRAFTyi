@@ -25,12 +25,11 @@ add_executable(naiCRAFTyi src/main.cpp
         src/GLAbstraction/ShaderProgram.h
         src/GLAbstraction/Texture.cpp
         src/GLAbstraction/Texture.h
-        src/Game/GameObject.h
-        src/Game/Block.cpp
-        src/Game/Block.h
-        src/Game/Models/Model.cpp
-        src/Game/Models/Model.h
-        src/Game/Models/CubeModel.cpp
-        src/Game/Models/CubeModel.h)
+        src/Gameplay/GameObjects/GameObject.h
+        src/Gameplay/GameObjects/Block.h
+        src/Gameplay/Models/Model.cpp
+        src/Gameplay/Models/Model.h
+        src/Gameplay/Models/CubeModel.cpp
+        src/Gameplay/Models/CubeModel.h src/Gameplay/GameObjects/DirtBlock.cpp src/Gameplay/GameObjects/DirtBlock.h src/Player/Camera.cpp src/Player/Camera.h src/Gameplay/Game.cpp src/Gameplay/Game.h src/Player/Controller.cpp src/Player/Controller.h)
 
 target_link_libraries(naiCRAFTyi -lglfw -lGL -lGLEW)
