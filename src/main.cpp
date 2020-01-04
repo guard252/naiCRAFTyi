@@ -9,7 +9,7 @@ int main()
     }
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 4);
-    window = glfwCreateWindow(640, 480, "Hello World", NULL, NULL);
+    window = glfwCreateWindow(640, 480, "naiCRAFTyi", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -18,8 +18,8 @@ int main()
     glfwMakeContextCurrent(window);
     glewInit();
 
-    Craft::Game mineCraft;
-    mineCraft.Run(window);
+    Craft::Game mineCraft(window);
+    mineCraft.Run();
 
     glfwTerminate();
 

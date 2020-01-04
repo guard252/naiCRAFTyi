@@ -37,6 +37,7 @@ CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.h
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
+ /home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.h
@@ -72,6 +73,22 @@ CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Camera.cpp
  /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o
+ /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
+ /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.h
+ /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
+ /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h
+ /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
+ /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Block.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/GameObject.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.h
+ /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
+ /home/danylo/dev/naiCRAFTyi/src/Player/Controller.cpp
+ /home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.h
@@ -86,4 +103,5 @@ CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.h
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
+ /home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
  /home/danylo/dev/naiCRAFTyi/src/main.cpp

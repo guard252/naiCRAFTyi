@@ -50,15 +50,13 @@ Tools.h
 Tools.h
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
 
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.cpp
-Game.h
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
-
 /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
 GL/glew.h
 /home/danylo/dev/naiCRAFTyi/src/Gameplay/GL/glew.h
 GLFW/glfw3.h
 /home/danylo/dev/naiCRAFTyi/src/Gameplay/GLFW/glfw3.h
+../Player/Controller.h
+/home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
 ../Player/Camera.h
 /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
 GameObjects/DirtBlock.h
@@ -107,4 +105,16 @@ glm/gtc/matrix_transform.hpp
 /home/danylo/dev/naiCRAFTyi/src/Player/glm/gtc/matrix_transform.hpp
 ../GLAbstraction/ShaderProgram.h
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
+
+/home/danylo/dev/naiCRAFTyi/src/Player/Controller.cpp
+Controller.h
+/home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
+../Gameplay/Game.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
+
+/home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
+Camera.h
+/home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
+GLFW/glfw3.h
+/home/danylo/dev/naiCRAFTyi/src/Player/GLFW/glfw3.h
 

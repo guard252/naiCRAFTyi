@@ -36,6 +36,7 @@ CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o: ../src/Gameplay/GameObjects/G
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o: ../src/Gameplay/Models/CubeModel.h
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o: ../src/Gameplay/Models/Model.h
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o: ../src/Player/Camera.h
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o: ../src/Player/Controller.h
 
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o: ../src/GLAbstraction/ShaderProgram.h
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o: ../src/GLAbstraction/Texture.h
@@ -72,6 +73,22 @@ CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o: ../src/GLAbstraction/Tools.h
 CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o: ../src/Player/Camera.cpp
 CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o: ../src/Player/Camera.h
 
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/GLAbstraction/ShaderProgram.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/GLAbstraction/Texture.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/GLAbstraction/Tools.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/GLAbstraction/VAO.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/GLAbstraction/VBLayout.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/GLAbstraction/VBO.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Gameplay/Game.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Gameplay/GameObjects/Block.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Gameplay/GameObjects/DirtBlock.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Gameplay/GameObjects/GameObject.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Gameplay/Models/CubeModel.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Gameplay/Models/Model.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Player/Camera.h
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Player/Controller.cpp
+CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Player/Controller.h
+
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/ShaderProgram.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/Texture.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/GLAbstraction/Tools.h
@@ -85,5 +102,6 @@ CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/Gameplay/GameObjects/GameObject
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/Gameplay/Models/CubeModel.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/Gameplay/Models/Model.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/Player/Camera.h
+CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/Player/Controller.h
 CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o: ../src/main.cpp
 
