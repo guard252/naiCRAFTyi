@@ -8,11 +8,13 @@ namespace Craft
         SetPrimarySettings(window);
         glfwGetCursorPos(window, &cursor_x, &cursor_y);
         glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
+        ReturnCursor(window, this);
+
     }
 
     // This one is not a callback because with callbacks
     // it doesn't work as smoothly
-    void Controller::KeyEventHandler(GLFWwindow *window)
+    void Controller::HandleEvents(GLFWwindow *window)
     {
         Controller *user = reinterpret_cast<Controller *>(glfwGetWindowUserPointer(window));
 
@@ -103,11 +105,7 @@ namespace Craft
             else
             {
                 glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
-                int startPosX, startPosY, windowWidth, windowHeight;
-                glfwGetWindowPos(window, &startPosX, &startPosY);
-                glfwGetWindowSize(window, &windowWidth, &windowHeight);
-                glfwSetCursorPos(window, user->cursor_x = startPosX /*+ windowWidth / 2*/,
-                                 user->cursor_y = startPosY /*+ windowHeight / 2*/);
+                ReturnCursor(window, user);
             }
             user->cursor_isHidden = !user->cursor_isHidden;
         }
@@ -116,6 +114,15 @@ namespace Craft
     void Controller::SetPrimarySettings(GLFWwindow *window)
     {
         glfwSetWindowUserPointer(window, this);
+    }
+
+    void Controller::ReturnCursor(GLFWwindow *window, Controller* user)
+    {
+        int startPosX, startPosY, windowWidth, windowHeight;
+        glfwGetWindowPos(window, &startPosX, &startPosY);
+        glfwGetWindowSize(window, &windowWidth, &windowHeight);
+        glfwSetCursorPos(window, user->cursor_x = startPosX,
+        user->cursor_y = startPosY);
     }
 }
 

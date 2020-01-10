@@ -12,7 +12,7 @@ bool GLLogCall()
     {
         return true;
     }
-    std::cout << "[OpenGL error] {" << errorCode << "} file: " << __FILE__ << "line: " << __LINE__ << " ";
+    std::cout << "[OpenGL error] {" << errorCode << "}";
 
     return false;
 }

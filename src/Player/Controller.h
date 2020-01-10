@@ -26,8 +26,10 @@ namespace Craft
         bool cursor_isHidden{true};
 
         Camera& camera;
+    private:
+        static void ReturnCursor(GLFWwindow *window, Controller* user);
     public:
-        void KeyEventHandler(GLFWwindow* window);
+        void HandleEvents(GLFWwindow* window);
         Controller(Camera& _camera, GLFWwindow* window);
         void SetPrimarySettings(GLFWwindow* window);
         void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);

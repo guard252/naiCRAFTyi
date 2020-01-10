@@ -2,8 +2,8 @@
 
 namespace Craft
 {
-    Camera::Camera(const GL::ShaderProgram& _shader, const glm::mat4& _view):
-    shader{_shader}, view{_view}
+    Camera::Camera(const GL::ShaderProgram& _shader):
+    shader{_shader}
     {
         view = glm::lookAt(position, position + forward, up);
     }

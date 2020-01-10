@@ -1,7 +1,3 @@
-//
-// Created by danylo on 12.12.19.
-//
-
 #include "Texture.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
