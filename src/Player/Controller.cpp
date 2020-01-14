@@ -37,26 +37,7 @@ namespace Craft
         {
             user->camera.TranslateView(glm::normalize(glm::cross(camera.GetForward(), camera.GetUp())) * step);
         }
-
-        // Game control
-        if(glfwGetKey(window, user->key_escape) )
-        {
-            if(user->cursor_isHidden)
-            {
-                glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
-            }
-            else
-            {
-                glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
-                int startPosX, startPosY, windowWidth, windowHeight;
-                glfwGetWindowPos(window, &startPosX, &startPosY);
-                glfwGetWindowSize(window, &windowWidth, &windowHeight);
-                glfwSetCursorPos(window, cursor_x = startPosX /*+ windowWidth / 2*/,
-                                  cursor_y = startPosY /*+ windowHeight / 2*/);
-            }
-            cursor_isHidden = !cursor_isHidden;
-        }
-
+        
         // Mouse control
         if(cursor_isHidden)
         {
@@ -114,6 +95,7 @@ namespace Craft
     void Controller::SetPrimarySettings(GLFWwindow *window)
     {
         glfwSetWindowUserPointer(window, this);
+        glfwSetKeyCallback(window, KeyCallback);
     }
 
     void Controller::ReturnCursor(GLFWwindow *window, Controller* user)
