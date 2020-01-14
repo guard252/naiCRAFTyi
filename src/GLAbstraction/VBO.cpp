@@ -2,7 +2,7 @@
 
 namespace GL
 {
-    VBO::VBO(GLuint size, GLfloat *data)
+    VBO::VBO(GLuint size, const GLfloat *data)
     {
         GLCall(glGenBuffers(1, &rendererID));
         GLCall(glBindBuffer(GL_ARRAY_BUFFER, rendererID));

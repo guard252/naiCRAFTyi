@@ -7,7 +7,8 @@ namespace GL {
         GLuint rendererID;
     public:
         VBO(){}
-        VBO(GLuint size, GLfloat *data);
+        VBO(GLuint size, const GLfloat *data);
+        VBO(const VBO&) = delete;
         void GenerateBuffer(GLuint size, GLfloat *data);
         void UpdateBuffer(GLuint size, GLfloat *data);
         void Bind() const;

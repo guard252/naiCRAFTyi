@@ -7,8 +7,6 @@ namespace GL {
     class VAO {
     private:
         GLuint rendererID;
-       // GLuint nextIndex{0};
-       // GLuint offset{0};
     public:
         VAO();
         void Bind()const;
