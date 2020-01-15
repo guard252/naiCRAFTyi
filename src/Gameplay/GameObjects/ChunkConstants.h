@@ -12,15 +12,41 @@ enum class BlockType
     AIR,
     DIRT,
     WOOD,
-    LEAVES
+    LEAVES,
+    SAND,
+    COBBLESTONE,
+    BEDROCK
+};
+
+enum class TexIndex
+{
+    DIRT,
+    GRASS,
+    GRASS_SIDE,
+    WOOD_TOP,
+    WOOD_SIDE,
+    LEAVES,
+    SAND,
+    COBBLESTONE,
+    BEDROCK
+};
+
+enum class BlockSide
+{
+    LEFT,
+    RIGHT,
+    TOP,
+    BOTTOM,
+    FRONT,
+    BACK
 };
 
 constexpr int SQUARE_ATTR_COUNT = 24;
 constexpr int VERTEX_ATTR_COUNT = SQUARE_ATTR_COUNT / 4;
 
 
-//c - coordinate, b - block type, t - texture coordinates
-//                           c  c  c  t  t  b  c  c  c  t  t  b  c  c  c  t  t  b  c  c  c  t  t  b
+//c - coordinate, t - texture coordinates, i - index in the array texture
+//                           c  c  c  t  t  i  c  c  c  t  t  i  c  c  c  t  t  i  c  c  c  t  t  i
 const MeshSquare LEFT_FACE  {0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0};
 const MeshSquare RIGHT_FACE {1, 1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0};
 const MeshSquare TOP_FACE   {1, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0, 0};

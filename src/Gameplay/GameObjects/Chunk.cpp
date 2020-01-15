@@ -16,7 +16,7 @@ namespace Craft
             {
                 for(int z = 0; z < CHUNK_SIZE; z++)
                 {
-                    blocks[x][y][z] = BlockType::DIRT;
+                    blocks[x][y][z] = BlockType::WOOD;
                 }
             }
         }

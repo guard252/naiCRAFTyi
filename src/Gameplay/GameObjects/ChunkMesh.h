@@ -12,6 +12,7 @@
 
 namespace Craft
 {
+
     class ChunkMesh
     {
         std::vector<GLfloat> mesh;
@@ -29,7 +30,8 @@ namespace Craft
         void Render();
         void AddFace(const MeshSquare sq, BlockType type, BlockPosition position);
     private:
-        void SetBlockType(MeshSquare sq, BlockType type);
+        void SetTexIndex(MeshSquare sq, GLuint index);
+        GLuint GetTexIndex(const MeshSquare sq, BlockType type);
         void MoveBlockToPosition(MeshSquare sq, BlockPosition pos);
         void GenerateVector(BlockType[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE]);
         void AddIndices();
