@@ -13,26 +13,56 @@
   <component name="ChangeListManager">
     <list default="true" id="d3273958-f3f1-4740-ba4d-337920be23f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ShaderProgram.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ShaderProgram.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Tools.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Tools.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VAO.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VAO.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/naiCRAFTyi" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/naiCRAFTyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/naiCRAFTyi.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/naiCRAFTyi.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GLAbstraction/ArrayTexture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GLAbstraction/ArrayTexture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GLAbstraction/ArrayTexture.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/GLAbstraction/ArrayTexture.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GLAbstraction/ShaderProgram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/GLAbstraction/ShaderProgram.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gameplay/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Gameplay/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player/Camera.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Camera.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player/Camera.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Camera.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/Block.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/Chunk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/GameObjects/Chunk.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/Chunk.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/GameObjects/Chunk.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkConstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkConstants.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkMesh.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkMesh.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkMesh.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkMesh.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkTypedefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkTypedefs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/DirtBlock.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/DirtBlock.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/GameObjects/GameObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/Models/CubeModel.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/Models/CubeModel.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/Models/Model.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gameplay/Models/Model.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Others/KeyFunctions.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Others/KeyFunctions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player/Controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Controller.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player/Controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player/Controller.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textures/cobblestone.png" beforeDir="false" afterPath="$PROJECT_DIR$/textures/cobblestone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textures/ground.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +98,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -110,12 +140,35 @@
       <workItem from="1576086857282" duration="3132000" />
       <workItem from="1576092275728" duration="106830000" />
       <workItem from="1577711113237" duration="200000" />
-      <workItem from="1577711322629" duration="33168000" />
+      <workItem from="1577711322629" duration="51853000" />
+      <workItem from="1578302520807" duration="8123000" />
+      <workItem from="1578602447938" duration="17484000" />
+      <workItem from="1578695960459" duration="1653000" />
+      <workItem from="1578829733577" duration="7269000" />
+      <workItem from="1578860940949" duration="78100000" />
+      <workItem from="1579284576492" duration="317000" />
+      <workItem from="1579285085713" duration="1529000" />
+      <workItem from="1579287295433" duration="2854000" />
+      <workItem from="1579291066663" duration="29520000" />
+      <workItem from="1579546004556" duration="38218000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -125,57 +178,78 @@
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
     <state x="627" y="331" width="723" height="449" key="#com.intellij.fileTypes.FileTypeChooser/67.34.1853.1046@67.34.1853.1046" timestamp="1576086743492" />
-    <state x="726" y="207" width="520" height="697" key="#com.intellij.ide.util.MemberChooser" timestamp="1576777714078">
+    <state x="726" y="207" width="520" height="697" key="#com.intellij.ide.util.MemberChooser" timestamp="1579180649899">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state x="726" y="207" width="520" height="697" key="#com.intellij.ide.util.MemberChooser/67.34.1853.1046@67.34.1853.1046" timestamp="1576777714078" />
-    <state width="1797" height="45" key="GridCell.Tab.0.bottom" timestamp="1578149205299">
+    <state x="726" y="207" width="520" height="697" key="#com.intellij.ide.util.MemberChooser/67.34.1853.1046@67.34.1853.1046" timestamp="1579180649899" />
+    <state width="1797" height="240" key="GridCell.Tab.0.bottom" timestamp="1579643680406">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="45" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1578149205299" />
-    <state width="1797" height="45" key="GridCell.Tab.0.center" timestamp="1578149205298">
+    <state width="1797" height="240" key="GridCell.Tab.0.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1579643680406" />
+    <state width="1797" height="240" key="GridCell.Tab.0.center" timestamp="1579643680406">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="45" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1578149205298" />
-    <state width="1797" height="45" key="GridCell.Tab.0.left" timestamp="1578149205296">
+    <state width="1797" height="240" key="GridCell.Tab.0.center/67.34.1853.1046@67.34.1853.1046" timestamp="1579643680406" />
+    <state width="1797" height="240" key="GridCell.Tab.0.left" timestamp="1579643680405">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="45" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1578149205296" />
-    <state width="1797" height="45" key="GridCell.Tab.0.right" timestamp="1578149205298">
+    <state width="1797" height="240" key="GridCell.Tab.0.left/67.34.1853.1046@67.34.1853.1046" timestamp="1579643680405" />
+    <state width="1797" height="240" key="GridCell.Tab.0.right" timestamp="1579643680406">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="45" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1578149205298" />
-    <state width="1797" height="278" key="GridCell.Tab.1.bottom" timestamp="1578138112769">
+    <state width="1797" height="240" key="GridCell.Tab.0.right/67.34.1853.1046@67.34.1853.1046" timestamp="1579643680406" />
+    <state width="1797" height="247" key="GridCell.Tab.1.bottom" timestamp="1579640438153">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="278" key="GridCell.Tab.1.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1578138112769" />
-    <state width="1797" height="278" key="GridCell.Tab.1.center" timestamp="1578138112769">
+    <state width="1797" height="247" key="GridCell.Tab.1.bottom/67.34.1853.1046@67.34.1853.1046" timestamp="1579640438153" />
+    <state width="1797" height="247" key="GridCell.Tab.1.center" timestamp="1579640438153">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="278" key="GridCell.Tab.1.center/67.34.1853.1046@67.34.1853.1046" timestamp="1578138112769" />
-    <state width="1797" height="278" key="GridCell.Tab.1.left" timestamp="1578138112769">
+    <state width="1797" height="247" key="GridCell.Tab.1.center/67.34.1853.1046@67.34.1853.1046" timestamp="1579640438153" />
+    <state width="1797" height="247" key="GridCell.Tab.1.left" timestamp="1579640438152">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="278" key="GridCell.Tab.1.left/67.34.1853.1046@67.34.1853.1046" timestamp="1578138112769" />
-    <state width="1797" height="278" key="GridCell.Tab.1.right" timestamp="1578138112769">
+    <state width="1797" height="247" key="GridCell.Tab.1.left/67.34.1853.1046@67.34.1853.1046" timestamp="1579640438152" />
+    <state width="1797" height="247" key="GridCell.Tab.1.right" timestamp="1579640438153">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state width="1797" height="278" key="GridCell.Tab.1.right/67.34.1853.1046@67.34.1853.1046" timestamp="1578138112769" />
-    <state x="268" y="175" key="SettingsEditor" timestamp="1577711422922">
+    <state width="1797" height="247" key="GridCell.Tab.1.right/67.34.1853.1046@67.34.1853.1046" timestamp="1579640438153" />
+    <state x="268" y="175" key="SettingsEditor" timestamp="1579625357372">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state x="268" y="175" key="SettingsEditor/67.34.1853.1046@67.34.1853.1046" timestamp="1577711422922" />
+    <state x="268" y="175" key="SettingsEditor/67.34.1853.1046@67.34.1853.1046" timestamp="1579625357372" />
     <state x="573" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1576086861163">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
     <state x="573" y="345" key="com.intellij.ide.util.TipDialog/67.34.1853.1046@67.34.1853.1046" timestamp="1576086861163" />
-    <state x="573" y="251" width="840" height="1034" key="run.anything.popup" timestamp="1578143999587">
+    <state x="573" y="251" width="840" height="1034" key="run.anything.popup" timestamp="1579607248295">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state x="573" y="251" width="840" height="1034" key="run.anything.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1578143999587" />
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1578144962876">
+    <state x="573" y="251" width="840" height="1034" key="run.anything.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1579607248295" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579552996221">
       <screen x="67" y="34" width="1853" height="1046" />
     </state>
-    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1578144962876" />
+    <state x="572" y="45" width="840" height="1034" key="search.everywhere.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1579552996221" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/GLAbstraction/Tools.h</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Gameplay/GameObjects/ChunkMesh.cpp</url>
+          <line>21</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/Gameplay/GameObjects/Chunk.cpp</url>
+          <line>79</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -135,48 +135,9 @@ CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.cpp -o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.s
 
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o: ../src/Gameplay/Models/Model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.cpp
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.i
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.s
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o: ../src/Gameplay/Models/CubeModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.cpp
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.i
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.s
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o: ../src/Gameplay/GameObjects/DirtBlock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.cpp
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.i
-
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.s
-
 CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
 CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o: ../src/Player/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Player/Camera.cpp
 
 CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.i: cmake_force
@@ -189,7 +150,7 @@ CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.s: cmake_force
 
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o: ../src/Gameplay/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.cpp
 
 CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.i: cmake_force
@@ -202,7 +163,7 @@ CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.s: cmake_force
 
 CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
 CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o: ../src/Player/Controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Player/Controller.cpp
 
 CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.i: cmake_force
@@ -213,6 +174,84 @@ CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Player/Controller.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.s
 
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o: ../src/Gameplay/GameObjects/Chunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.s
+
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.o: ../src/GLAbstraction/ArrayTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.cpp > CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.cpp -o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.s
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o: ../src/Gameplay/GameObjects/ChunkMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.s
+
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o: ../src/GLAbstraction/IBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.cpp > CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.cpp -o CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.s
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o: ../src/Gameplay/GameObjects/Terrain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.s
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o: ../src/Gameplay/GameObjects/Coordinates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.s
+
 # Object files for target naiCRAFTyi
 naiCRAFTyi_OBJECTS = \
 "CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o" \
@@ -221,12 +260,15 @@ naiCRAFTyi_OBJECTS = \
 "CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VAO.cpp.o" \
 "CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ShaderProgram.cpp.o" \
 "CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.o" \
-"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o" \
-"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o" \
-"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o" \
 "CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o" \
 "CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o" \
-"CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o"
+"CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o"
 
 # External object files for target naiCRAFTyi
 naiCRAFTyi_EXTERNAL_OBJECTS =
@@ -237,15 +279,18 @@ naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VBO.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/VAO.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ShaderProgram.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/Texture.cpp.o
-naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o
-naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o
-naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/build.make
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable naiCRAFTyi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable naiCRAFTyi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/naiCRAFTyi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

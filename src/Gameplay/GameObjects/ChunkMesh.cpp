@@ -1,9 +1,14 @@
 #include "ChunkMesh.h"
+#include "Chunk.h"
 
 namespace Craft
 {
 
-    ChunkMesh::ChunkMesh(const GL::ShaderProgram &_shader) : shader{_shader}
+    ChunkMesh::ChunkMesh(const GL::ShaderProgram &_shader, ChunkPosition pos) :
+    shader{_shader},
+    chunkShifting{((pos.x  < 0) ? (pos.x + 1) : (pos.x - 1)) * CHUNK_SIZE,
+                  ((pos.y  < 0) ? (pos.y + 1) : (pos.y - 1)) * CHUNK_SIZE,
+                  ((pos.z  < 0) ? (pos.z + 1) : (pos.z - 1)) * CHUNK_SIZE,}
     {
         layout.Push<float>(3); // screen coordinates
         layout.Push<float>(2); // texture coordinates
@@ -12,98 +17,36 @@ namespace Craft
 
     }
 
-    void ChunkMesh::GenerateMesh(BlockType chunk[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE])
+    void ChunkMesh::GenerateMesh()
     {
-        GenerateVector(chunk);
         vbo.GenerateBuffer(sizeof(float) * mesh.size(), &mesh[0]);
         ibo.GenerateBuffer(indices.size(), &indices[0]);
+        ibo.Bind();
         vao.Bind();
         vao.AddBuffer(vbo, layout);
-
     }
 
     void ChunkMesh::Render()
     {
         vbo.Bind();
-        vao.Bind();
         ibo.Bind();
+        vao.Bind();
         shader.Bind();
         GLCall(glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0));
     }
 
-    void ChunkMesh::GenerateVector(BlockType chunk[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE])
+
+    void ChunkMesh::AddFace(const MeshSquare sq, BlockType type, BlockChunkPosition position)
     {
-        for (int x = 0; x < CHUNK_SIZE; x++)
         {
-            for (int y = 0; y < CHUNK_SIZE; y++)
-            {
-                for (int z = 0; z < CHUNK_SIZE; z++)
-                {
-                    BlockType currentBlock = chunk[x][y][z];
-                    BlockPosition currentPos(x, y, z);
-                    if (currentBlock != BlockType::AIR)
-                    {
-
-                        // Right face
-                        if ((x + 1 == CHUNK_SIZE) || (x + 1 != CHUNK_SIZE && chunk[x + 1][y][z] == BlockType::AIR ||
-                                                      chunk[x + 1][y][z] == BlockType::LEAVES))
-                        {
-                            AddFace(RIGHT_FACE, currentBlock, currentPos);
-                        }
-
-                        // Left face
-                        if (!x ||
-                            (x && chunk[x - 1][y][z] == BlockType::AIR || chunk[x - 1][y][z] == BlockType::LEAVES))
-                        {
-                            AddFace(LEFT_FACE, currentBlock, currentPos);
-                        }
-
-                        // Top face
-                        if ((y + 1 == CHUNK_SIZE) || (y + 1 != CHUNK_SIZE && chunk[x][y + 1][z] == BlockType::AIR ||
-                                                      chunk[x][y + 1][z] == BlockType::LEAVES))
-                        {
-                            AddFace(TOP_FACE, currentBlock, currentPos);
-                        }
-
-                        // Bottom face
-                        if (!y ||
-                            (y && chunk[x][y - 1][z] == BlockType::AIR || chunk[x - 1][y][z] == BlockType::LEAVES))
-                        {
-                            AddFace(BOTTOM_FACE, currentBlock, currentPos);
-                        }
-
-                        // Front face
-                        if ((z + 1 == CHUNK_SIZE) || (z + 1 != CHUNK_SIZE && chunk[x][y][z + 1] == BlockType::AIR ||
-                                                      chunk[x][y][z + 1] == BlockType::LEAVES))
-                        {
-                            AddFace(FRONT_FACE, currentBlock, currentPos);
-                        }
-
-                        // Back face
-                        if (!z ||
-                            (z && chunk[x][y][z - 1] == BlockType::AIR || chunk[x][y][z - 1] == BlockType::LEAVES))
-                        {
-                            AddFace(BACK_FACE, currentBlock, currentPos);
-                        }
-                    }
-                }
-            }
+            MeshSquare face;
+            memcpy(face, sq, sizeof(float) * SQUARE_ATTR_COUNT);
+            GLuint index = GetTexIndex(sq, type);
+            SetTexIndex(face, index);
+            MoveBlockToPosition(face, position);
+            mesh.insert(mesh.end(), std::begin(face), std::end(face));
+            AddIndices();
         }
-    }
-
-
-    void ChunkMesh::AddFace(const MeshSquare sq, BlockType type, BlockPosition position)
-    {
-        MeshSquare face;
-        for (int i = 0; i < SQUARE_ATTR_COUNT; i++)
-        {
-            face[i] = sq[i];
-        }
-        GLuint index = GetTexIndex(sq, type);
-        SetTexIndex(face, index);
-        MoveBlockToPosition(face, position);
-        mesh.insert(mesh.end(), std::begin(face), std::end(face));
-        AddIndices();
     }
 
     /*
@@ -111,7 +54,7 @@ namespace Craft
      * texture index to be every sixth member of an array,
      * we'll just replace them with type passed in function argument
      */
-    void ChunkMesh::SetTexIndex(MeshSquare sq, GLuint index)
+    void ChunkMesh::SetTexIndex(float *sq, GLuint index)
     {
         for (int i = VERTEX_ATTR_COUNT - 1; i < SQUARE_ATTR_COUNT; i += VERTEX_ATTR_COUNT)
         {
@@ -120,19 +63,18 @@ namespace Craft
     }
 
 
-
-
     /*
      * Sets the basic MeshSquare data to a specific position in a chunk
      */
-    void ChunkMesh::MoveBlockToPosition(MeshSquare sq, BlockPosition pos)
+    void ChunkMesh::MoveBlockToPosition(MeshSquare sq, BlockChunkPosition pos)
     {
         for (int i = 0; i < SQUARE_ATTR_COUNT; i += VERTEX_ATTR_COUNT)
         {
-            sq[i] += pos.x;
-            sq[i + 1] += pos.y;
-            sq[i + 2] += pos.z;
+            sq[i] += pos.x + chunkShifting.x;
+            sq[i + 1] += pos.y + chunkShifting.y;
+            sq[i + 2] += pos.z + chunkShifting.z;
         }
+
     }
 
     void ChunkMesh::AddIndices()
@@ -150,18 +92,15 @@ namespace Craft
         {
             case BlockType::DIRT:
             {
-                if(sq == LEFT_FACE  ||
-                   sq == RIGHT_FACE ||
-                   sq == FRONT_FACE ||
-                   sq == BACK_FACE)
+                if (sq == LEFT_FACE || sq == RIGHT_FACE || sq == FRONT_FACE || sq == BACK_FACE)
                 {
                     return static_cast<GLuint>(TexIndex::GRASS_SIDE);
                 }
-                if(sq == TOP_FACE)
+                if (sq == TOP_FACE)
                 {
                     return static_cast<GLuint>(TexIndex::GRASS);
                 }
-                if(sq == BOTTOM_FACE)
+                if (sq == BOTTOM_FACE)
                 {
                     return static_cast<GLuint>(TexIndex::DIRT);
                 }
@@ -181,15 +120,11 @@ namespace Craft
             }
             case BlockType::WOOD:
             {
-                if(sq == LEFT_FACE  ||
-                   sq == RIGHT_FACE ||
-                   sq == FRONT_FACE ||
-                   sq == BACK_FACE)
+                if (sq == LEFT_FACE || sq == RIGHT_FACE || sq == FRONT_FACE || sq == BACK_FACE)
                 {
                     return static_cast<GLuint>(TexIndex::WOOD_SIDE);
                 }
-                if(sq == TOP_FACE  ||
-                   sq == BOTTOM_FACE)
+                if (sq == TOP_FACE || sq == BOTTOM_FACE)
                 {
                     return static_cast<GLuint>(TexIndex::WOOD_TOP);
                 }
@@ -201,8 +136,7 @@ namespace Craft
             }
 
         }
-
-        throw std::runtime_error("There is no such texture with given parameters");
+        throw std::runtime_error("Air");
     }
 
 }

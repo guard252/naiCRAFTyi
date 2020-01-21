@@ -123,6 +123,60 @@ naiCRAFTyi/fast:
 	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/build
 .PHONY : naiCRAFTyi/fast
 
+src/GLAbstraction/ArrayTexture.o: src/GLAbstraction/ArrayTexture.cpp.o
+
+.PHONY : src/GLAbstraction/ArrayTexture.o
+
+# target to build an object file
+src/GLAbstraction/ArrayTexture.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.o
+.PHONY : src/GLAbstraction/ArrayTexture.cpp.o
+
+src/GLAbstraction/ArrayTexture.i: src/GLAbstraction/ArrayTexture.cpp.i
+
+.PHONY : src/GLAbstraction/ArrayTexture.i
+
+# target to preprocess a source file
+src/GLAbstraction/ArrayTexture.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.i
+.PHONY : src/GLAbstraction/ArrayTexture.cpp.i
+
+src/GLAbstraction/ArrayTexture.s: src/GLAbstraction/ArrayTexture.cpp.s
+
+.PHONY : src/GLAbstraction/ArrayTexture.s
+
+# target to generate assembly for a file
+src/GLAbstraction/ArrayTexture.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/ArrayTexture.cpp.s
+.PHONY : src/GLAbstraction/ArrayTexture.cpp.s
+
+src/GLAbstraction/IBO.o: src/GLAbstraction/IBO.cpp.o
+
+.PHONY : src/GLAbstraction/IBO.o
+
+# target to build an object file
+src/GLAbstraction/IBO.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o
+.PHONY : src/GLAbstraction/IBO.cpp.o
+
+src/GLAbstraction/IBO.i: src/GLAbstraction/IBO.cpp.i
+
+.PHONY : src/GLAbstraction/IBO.i
+
+# target to preprocess a source file
+src/GLAbstraction/IBO.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.i
+.PHONY : src/GLAbstraction/IBO.cpp.i
+
+src/GLAbstraction/IBO.s: src/GLAbstraction/IBO.cpp.s
+
+.PHONY : src/GLAbstraction/IBO.s
+
+# target to generate assembly for a file
+src/GLAbstraction/IBO.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.s
+.PHONY : src/GLAbstraction/IBO.cpp.s
+
 src/GLAbstraction/ShaderProgram.o: src/GLAbstraction/ShaderProgram.cpp.o
 
 .PHONY : src/GLAbstraction/ShaderProgram.o
@@ -285,86 +339,113 @@ src/Gameplay/Game.cpp.s:
 	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.s
 .PHONY : src/Gameplay/Game.cpp.s
 
-src/Gameplay/GameObjects/DirtBlock.o: src/Gameplay/GameObjects/DirtBlock.cpp.o
+src/Gameplay/GameObjects/Chunk.o: src/Gameplay/GameObjects/Chunk.cpp.o
 
-.PHONY : src/Gameplay/GameObjects/DirtBlock.o
-
-# target to build an object file
-src/Gameplay/GameObjects/DirtBlock.cpp.o:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.o
-.PHONY : src/Gameplay/GameObjects/DirtBlock.cpp.o
-
-src/Gameplay/GameObjects/DirtBlock.i: src/Gameplay/GameObjects/DirtBlock.cpp.i
-
-.PHONY : src/Gameplay/GameObjects/DirtBlock.i
-
-# target to preprocess a source file
-src/Gameplay/GameObjects/DirtBlock.cpp.i:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.i
-.PHONY : src/Gameplay/GameObjects/DirtBlock.cpp.i
-
-src/Gameplay/GameObjects/DirtBlock.s: src/Gameplay/GameObjects/DirtBlock.cpp.s
-
-.PHONY : src/Gameplay/GameObjects/DirtBlock.s
-
-# target to generate assembly for a file
-src/Gameplay/GameObjects/DirtBlock.cpp.s:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/DirtBlock.cpp.s
-.PHONY : src/Gameplay/GameObjects/DirtBlock.cpp.s
-
-src/Gameplay/Models/CubeModel.o: src/Gameplay/Models/CubeModel.cpp.o
-
-.PHONY : src/Gameplay/Models/CubeModel.o
+.PHONY : src/Gameplay/GameObjects/Chunk.o
 
 # target to build an object file
-src/Gameplay/Models/CubeModel.cpp.o:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.o
-.PHONY : src/Gameplay/Models/CubeModel.cpp.o
+src/Gameplay/GameObjects/Chunk.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o
+.PHONY : src/Gameplay/GameObjects/Chunk.cpp.o
 
-src/Gameplay/Models/CubeModel.i: src/Gameplay/Models/CubeModel.cpp.i
+src/Gameplay/GameObjects/Chunk.i: src/Gameplay/GameObjects/Chunk.cpp.i
 
-.PHONY : src/Gameplay/Models/CubeModel.i
+.PHONY : src/Gameplay/GameObjects/Chunk.i
 
 # target to preprocess a source file
-src/Gameplay/Models/CubeModel.cpp.i:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.i
-.PHONY : src/Gameplay/Models/CubeModel.cpp.i
+src/Gameplay/GameObjects/Chunk.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.i
+.PHONY : src/Gameplay/GameObjects/Chunk.cpp.i
 
-src/Gameplay/Models/CubeModel.s: src/Gameplay/Models/CubeModel.cpp.s
+src/Gameplay/GameObjects/Chunk.s: src/Gameplay/GameObjects/Chunk.cpp.s
 
-.PHONY : src/Gameplay/Models/CubeModel.s
+.PHONY : src/Gameplay/GameObjects/Chunk.s
 
 # target to generate assembly for a file
-src/Gameplay/Models/CubeModel.cpp.s:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/CubeModel.cpp.s
-.PHONY : src/Gameplay/Models/CubeModel.cpp.s
+src/Gameplay/GameObjects/Chunk.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.s
+.PHONY : src/Gameplay/GameObjects/Chunk.cpp.s
 
-src/Gameplay/Models/Model.o: src/Gameplay/Models/Model.cpp.o
+src/Gameplay/GameObjects/ChunkMesh.o: src/Gameplay/GameObjects/ChunkMesh.cpp.o
 
-.PHONY : src/Gameplay/Models/Model.o
+.PHONY : src/Gameplay/GameObjects/ChunkMesh.o
 
 # target to build an object file
-src/Gameplay/Models/Model.cpp.o:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.o
-.PHONY : src/Gameplay/Models/Model.cpp.o
+src/Gameplay/GameObjects/ChunkMesh.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o
+.PHONY : src/Gameplay/GameObjects/ChunkMesh.cpp.o
 
-src/Gameplay/Models/Model.i: src/Gameplay/Models/Model.cpp.i
+src/Gameplay/GameObjects/ChunkMesh.i: src/Gameplay/GameObjects/ChunkMesh.cpp.i
 
-.PHONY : src/Gameplay/Models/Model.i
+.PHONY : src/Gameplay/GameObjects/ChunkMesh.i
 
 # target to preprocess a source file
-src/Gameplay/Models/Model.cpp.i:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.i
-.PHONY : src/Gameplay/Models/Model.cpp.i
+src/Gameplay/GameObjects/ChunkMesh.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.i
+.PHONY : src/Gameplay/GameObjects/ChunkMesh.cpp.i
 
-src/Gameplay/Models/Model.s: src/Gameplay/Models/Model.cpp.s
+src/Gameplay/GameObjects/ChunkMesh.s: src/Gameplay/GameObjects/ChunkMesh.cpp.s
 
-.PHONY : src/Gameplay/Models/Model.s
+.PHONY : src/Gameplay/GameObjects/ChunkMesh.s
 
 # target to generate assembly for a file
-src/Gameplay/Models/Model.cpp.s:
-	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Models/Model.cpp.s
-.PHONY : src/Gameplay/Models/Model.cpp.s
+src/Gameplay/GameObjects/ChunkMesh.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.s
+.PHONY : src/Gameplay/GameObjects/ChunkMesh.cpp.s
+
+src/Gameplay/GameObjects/Coordinates.o: src/Gameplay/GameObjects/Coordinates.cpp.o
+
+.PHONY : src/Gameplay/GameObjects/Coordinates.o
+
+# target to build an object file
+src/Gameplay/GameObjects/Coordinates.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o
+.PHONY : src/Gameplay/GameObjects/Coordinates.cpp.o
+
+src/Gameplay/GameObjects/Coordinates.i: src/Gameplay/GameObjects/Coordinates.cpp.i
+
+.PHONY : src/Gameplay/GameObjects/Coordinates.i
+
+# target to preprocess a source file
+src/Gameplay/GameObjects/Coordinates.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.i
+.PHONY : src/Gameplay/GameObjects/Coordinates.cpp.i
+
+src/Gameplay/GameObjects/Coordinates.s: src/Gameplay/GameObjects/Coordinates.cpp.s
+
+.PHONY : src/Gameplay/GameObjects/Coordinates.s
+
+# target to generate assembly for a file
+src/Gameplay/GameObjects/Coordinates.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.s
+.PHONY : src/Gameplay/GameObjects/Coordinates.cpp.s
+
+src/Gameplay/GameObjects/Terrain.o: src/Gameplay/GameObjects/Terrain.cpp.o
+
+.PHONY : src/Gameplay/GameObjects/Terrain.o
+
+# target to build an object file
+src/Gameplay/GameObjects/Terrain.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o
+.PHONY : src/Gameplay/GameObjects/Terrain.cpp.o
+
+src/Gameplay/GameObjects/Terrain.i: src/Gameplay/GameObjects/Terrain.cpp.i
+
+.PHONY : src/Gameplay/GameObjects/Terrain.i
+
+# target to preprocess a source file
+src/Gameplay/GameObjects/Terrain.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.i
+.PHONY : src/Gameplay/GameObjects/Terrain.cpp.i
+
+src/Gameplay/GameObjects/Terrain.s: src/Gameplay/GameObjects/Terrain.cpp.s
+
+.PHONY : src/Gameplay/GameObjects/Terrain.s
+
+# target to generate assembly for a file
+src/Gameplay/GameObjects/Terrain.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.s
+.PHONY : src/Gameplay/GameObjects/Terrain.cpp.s
 
 src/Player/Camera.o: src/Player/Camera.cpp.o
 
@@ -456,6 +537,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... naiCRAFTyi"
 	@echo "... edit_cache"
+	@echo "... src/GLAbstraction/ArrayTexture.o"
+	@echo "... src/GLAbstraction/ArrayTexture.i"
+	@echo "... src/GLAbstraction/ArrayTexture.s"
+	@echo "... src/GLAbstraction/IBO.o"
+	@echo "... src/GLAbstraction/IBO.i"
+	@echo "... src/GLAbstraction/IBO.s"
 	@echo "... src/GLAbstraction/ShaderProgram.o"
 	@echo "... src/GLAbstraction/ShaderProgram.i"
 	@echo "... src/GLAbstraction/ShaderProgram.s"
@@ -474,15 +561,18 @@ help:
 	@echo "... src/Gameplay/Game.o"
 	@echo "... src/Gameplay/Game.i"
 	@echo "... src/Gameplay/Game.s"
-	@echo "... src/Gameplay/GameObjects/DirtBlock.o"
-	@echo "... src/Gameplay/GameObjects/DirtBlock.i"
-	@echo "... src/Gameplay/GameObjects/DirtBlock.s"
-	@echo "... src/Gameplay/Models/CubeModel.o"
-	@echo "... src/Gameplay/Models/CubeModel.i"
-	@echo "... src/Gameplay/Models/CubeModel.s"
-	@echo "... src/Gameplay/Models/Model.o"
-	@echo "... src/Gameplay/Models/Model.i"
-	@echo "... src/Gameplay/Models/Model.s"
+	@echo "... src/Gameplay/GameObjects/Chunk.o"
+	@echo "... src/Gameplay/GameObjects/Chunk.i"
+	@echo "... src/Gameplay/GameObjects/Chunk.s"
+	@echo "... src/Gameplay/GameObjects/ChunkMesh.o"
+	@echo "... src/Gameplay/GameObjects/ChunkMesh.i"
+	@echo "... src/Gameplay/GameObjects/ChunkMesh.s"
+	@echo "... src/Gameplay/GameObjects/Coordinates.o"
+	@echo "... src/Gameplay/GameObjects/Coordinates.i"
+	@echo "... src/Gameplay/GameObjects/Coordinates.s"
+	@echo "... src/Gameplay/GameObjects/Terrain.o"
+	@echo "... src/Gameplay/GameObjects/Terrain.i"
+	@echo "... src/Gameplay/GameObjects/Terrain.s"
 	@echo "... src/Player/Camera.o"
 	@echo "... src/Player/Camera.i"
 	@echo "... src/Player/Camera.s"

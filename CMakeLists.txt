@@ -25,11 +25,21 @@ add_executable(naiCRAFTyi src/main.cpp
         src/GLAbstraction/ShaderProgram.h
         src/GLAbstraction/Texture.cpp
         src/GLAbstraction/Texture.h
-        src/Gameplay/GameObjects/GameObject.h
-        src/Gameplay/GameObjects/Block.h
-        src/Gameplay/Models/Model.cpp
-        src/Gameplay/Models/Model.h
-        src/Gameplay/Models/CubeModel.cpp
-        src/Gameplay/Models/CubeModel.h src/Gameplay/GameObjects/DirtBlock.cpp src/Gameplay/GameObjects/DirtBlock.h src/Player/Camera.cpp src/Player/Camera.h src/Gameplay/Game.cpp src/Gameplay/Game.h src/Player/Controller.cpp src/Player/Controller.h)
+        src/Player/Camera.cpp
+        src/Player/Camera.h
+        src/Gameplay/Game.cpp
+        src/Gameplay/Game.h
+        src/Player/Controller.cpp
+        src/Player/Controller.h
+        src/Gameplay/GameObjects/Chunk.cpp
+        src/Gameplay/GameObjects/Chunk.h
+        src/GLAbstraction/ArrayTexture.cpp
+        src/GLAbstraction/ArrayTexture.h
+        src/Gameplay/GameObjects/ChunkTypedefs.h
+        src/Gameplay/GameObjects/ChunkConstants.h
+        src/Gameplay/GameObjects/ChunkMesh.cpp
+        src/Gameplay/GameObjects/ChunkMesh.h
+        src/GLAbstraction/IBO.cpp
+        src/GLAbstraction/IBO.h src/Gameplay/GameObjects/Terrain.cpp src/Gameplay/GameObjects/Terrain.h src/Others/KeyFunctions.h src/Gameplay/GameObjects/Coordinates.h src/Gameplay/GameObjects/Coordinates.cpp)
 
 target_link_libraries(naiCRAFTyi -lglfw -lGL -lGLEW)

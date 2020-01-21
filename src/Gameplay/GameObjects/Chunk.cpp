@@ -1,29 +1,106 @@
 #include "Chunk.h"
+#include "Terrain.h"
 
 namespace Craft
 {
-    Chunk::Chunk(const GL::ShaderProgram& _shader) : mesh{_shader}
+    Chunk::Chunk(const GL::ShaderProgram &_shader, ChunkPosition pos,
+            Terrain* ter) :
+            mesh{_shader, pos}, terrain{ter}, position{pos}
     {
         GenerateCubeChunk();
-        mesh.GenerateMesh(blocks);
     }
 
     void Chunk::GenerateCubeChunk()
     {
-        for(int x = 0; x < CHUNK_SIZE; x++)
+        for (int x = 0; x < CHUNK_SIZE; x++)
         {
-            for(int y = 0; y < CHUNK_SIZE; y++)
+            for (int y = 0; y < CHUNK_SIZE; y++)
             {
-                for(int z = 0; z < CHUNK_SIZE; z++)
+                for (int z = 0; z < CHUNK_SIZE; z++)
                 {
-                    blocks[x][y][z] = BlockType::WOOD;
+                    blocks[x][y][z] = BlockType::DIRT;
                 }
             }
         }
+    }
+
+    void Chunk::CreateMesh()
+    {
+        for (int x = 0; x < CHUNK_SIZE; x++)
+        {
+            for (int y = 0; y < CHUNK_SIZE; y++)
+            {
+                for (int z = 0; z < CHUNK_SIZE; z++)
+                {
+                    BlockType currentBlock = blocks[x][y][z];
+                    BlockChunkPosition currentPos(x, y, z);
+                    if (currentBlock != BlockType::AIR)
+                    {
+                        // Right face
+                        if (GetBlock(x + 1, y, z) == BlockType::AIR|| GetBlock(x + 1, y, z) == BlockType::LEAVES)
+                        {
+                            mesh.AddFace(RIGHT_FACE, currentBlock, currentPos);
+                        }
+
+                        // Left face
+                        if (GetBlock(x - 1, y, z) == BlockType::AIR || GetBlock(x - 1, y, z) == BlockType::LEAVES)
+                        {
+                            mesh.AddFace(LEFT_FACE, currentBlock, currentPos);
+                        }
+
+                        // Top face
+                        if (GetBlock(x, y + 1, z) == BlockType::AIR || GetBlock(x, y + 1, z) == BlockType::LEAVES)
+                        {
+                            mesh.AddFace(TOP_FACE, currentBlock, currentPos);
+                        }
+
+                        // Bottom face
+                        if (GetBlock(x, y - 1, z) == BlockType::AIR || GetBlock(x, y - 1, z) == BlockType::LEAVES)
+                        {
+                            mesh.AddFace(BOTTOM_FACE, currentBlock, currentPos);
+                        }
+
+                        // Front face
+                        if (GetBlock(x, y, z + 1) == BlockType::AIR || GetBlock(x, y, z + 1) == BlockType::LEAVES)
+                        {
+                            mesh.AddFace(FRONT_FACE, currentBlock, currentPos);
+                        }
+
+                        // Back face
+                        if (GetBlock(x, y, z - 1) == BlockType::AIR || GetBlock(x, y, z - 1) == BlockType::LEAVES)
+                        {
+                            mesh.AddFace(BACK_FACE, currentBlock, currentPos);
+                        }
+
+
+                    }
+                }
+            }
+        }
+        mesh.GenerateMesh();
+    }
+
+    BlockType Chunk::GetBlock(int x, int y, int z)const
+    {
+        BlockType res;
+        try
+        {
+            res =  blocks.at(x).at(y).at(z);
+        }
+        catch (std::out_of_range &)
+        {
+            return BlockType::AIR;
+            //TODO: fix the BUG!
+
+            BlockWorldPosition pos = ToWorldCoordinates(position, BlockChunkPosition(x, y, z));
+            res =  terrain->GetBlock(pos);
+        }
+        return res;
     }
 
     void Chunk::Draw()
     {
         mesh.Render();
     }
+
 }

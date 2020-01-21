@@ -14,14 +14,14 @@ namespace GL
     */
     class ArrayTexture
     {
-    private:
+    protected:
         GLuint rendererID;
         int width, height, BPP;
         GLubyte* pixelData;
         GLuint nextSpot{0};
     public:
         ArrayTexture(std::initializer_list<std::string> images);
-        ~ArrayTexture();
+        virtual ~ArrayTexture();
         void Bind(GLuint slot = 0)const;
         void UnBind()const;
     };

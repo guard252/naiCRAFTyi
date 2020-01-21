@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
@@ -123,28 +135,37 @@
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Block.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/GameObject.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Player/Camera.cpp">

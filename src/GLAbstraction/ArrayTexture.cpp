@@ -22,19 +22,19 @@ namespace GL
         pixelData = stbi_load(images.begin()->c_str(), &width, &height, &BPP, 4);
         if (pixelData == nullptr) throw std::runtime_error("Can not load the image by the path " + *images.begin());
 
-        GLCall(glTexStorage3D(GL_TEXTURE_2D_ARRAY, 5, GL_RGBA8, width, height, 256));
+        GLCall(glTexStorage3D(GL_TEXTURE_2D_ARRAY, 1, GL_RGBA8, width, height, 256));
         GLCall(glTexSubImage3D(GL_TEXTURE_2D_ARRAY, 0, 0, 0, nextSpot++,
-                width, height, 1, GL_RGB, GL_UNSIGNED_BYTE, pixelData));
+                width, height, 1, GL_RGBA, GL_UNSIGNED_BYTE, pixelData));
         stbi_image_free(pixelData);
 
         for(auto i = images.begin() + 1; i < images.end(); i++)
         {
-            pixelData = stbi_load(images.begin()->c_str(), &width, &height, &BPP, 4);
-            if (pixelData == nullptr) throw std::runtime_error("Can not load the image by the path " + *images.begin());
+            pixelData = stbi_load(i->c_str(), &width, &height, &BPP, 4);
+            if (pixelData == nullptr) throw std::runtime_error("Can not load the image by the path " + *i);
 
             GLCall(glBindTexture(GL_TEXTURE_2D_ARRAY, rendererID));
             GLCall(glTexSubImage3D(GL_TEXTURE_2D_ARRAY, 0, 0, 0, nextSpot++,
-                                   width, height, 1, GL_RGB, GL_UNSIGNED_BYTE, pixelData));
+                                   width, height, 1, GL_RGBA, GL_UNSIGNED_BYTE, pixelData));
             stbi_image_free(pixelData);
         }
 

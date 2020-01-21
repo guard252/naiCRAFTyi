@@ -18,7 +18,7 @@ namespace Craft
 
         int key_escape{GLFW_KEY_ESCAPE};
     private:
-        float step{0.2};
+        float step{0.5};
         float mouse_sensitivity{0.1};
         float yaw{0}, pitch{0};
         double cursor_x, cursor_y;
@@ -28,11 +28,11 @@ namespace Craft
         Camera& camera;
     private:
         static void ReturnCursor(GLFWwindow *window, Controller* user);
+        static void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
     public:
         void HandleEvents(GLFWwindow* window);
         Controller(Camera& _camera, GLFWwindow* window);
         void SetPrimarySettings(GLFWwindow* window);
-        static void KeyCallback(GLFWwindow* window, int key, int scancode, int action, int mods);
 
 
     };

@@ -37,7 +37,7 @@ namespace Craft
         {
             user->camera.TranslateView(glm::normalize(glm::cross(camera.GetForward(), camera.GetUp())) * step);
         }
-        
+
         // Mouse control
         if(cursor_isHidden)
         {

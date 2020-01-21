@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.h
+Tools.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
+stb_image.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/stb_image.h
+cassert
+-
+exception
+-
+
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.h
+Tools.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
+
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
 Tools.h
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
@@ -18,14 +32,12 @@ unordered_map
 glm/glm.hpp
 -
 
-/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.h
-Tools.h
-/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
-
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
 GL/glew.h
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/GL/glew.h
 iostream
+-
+iomanip
 -
 csignal
 -
@@ -50,6 +62,10 @@ Tools.h
 Tools.h
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
 
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.cpp
+Game.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
+
 /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
 GL/glew.h
 /home/danylo/dev/naiCRAFTyi/src/Gameplay/GL/glew.h
@@ -59,44 +75,78 @@ GLFW/glfw3.h
 /home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
 ../Player/Camera.h
 /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
-GameObjects/DirtBlock.h
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.h
+GameObjects/Terrain.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
 
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Block.h
-GameObject.h
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/GameObject.h
-../Models/CubeModel.h
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.h
-../../GLAbstraction/Texture.h
-/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.h
-../../GLAbstraction/ShaderProgram.h
-/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.cpp
+Chunk.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
+Terrain.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
 
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/DirtBlock.h
-glm/gtc/matrix_transform.hpp
--
-Block.h
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Block.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
+ChunkMesh.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
+Coordinates.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
 
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/GameObject.h
-glm/glm.hpp
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/glm/glm.hpp
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
+ChunkTypedefs.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
 
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/CubeModel.h
-Model.h
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.h
-../../GLAbstraction/Texture.h
-/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Texture.h
-../../GLAbstraction/ShaderProgram.h
-/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.cpp
+ChunkMesh.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
+Chunk.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
 
-/home/danylo/dev/naiCRAFTyi/src/Gameplay/Models/Model.h
-../../GLAbstraction/VBO.h
-/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
 ../../GLAbstraction/VAO.h
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h
 ../../GLAbstraction/VBLayout.h
 /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
+../../GLAbstraction/VBO.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
+../../GLAbstraction/IBO.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.h
+../../GLAbstraction/ArrayTexture.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.h
+../../GLAbstraction/ShaderProgram.h
+/home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
+ChunkConstants.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
+ChunkTypedefs.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
+
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
+glm/glm.hpp
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/glm/glm.hpp
+../../Others/KeyFunctions.h
+/home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
+
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
+ChunkTypedefs.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
+ChunkConstants.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
+
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.cpp
+Terrain.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
+
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
+Chunk.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
+map
+-
+unordered_map
+-
+
+/home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
+glm/glm.hpp
+-
+unordered_map
+-
 
 /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
 glm/glm.hpp
@@ -117,4 +167,10 @@ Camera.h
 /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
 GLFW/glfw3.h
 /home/danylo/dev/naiCRAFTyi/src/Player/GLFW/glfw3.h
+
+/home/danylo/dev/naiCRAFTyi/src/main.cpp
+iostream
+-
+Gameplay/Game.h
+/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
 

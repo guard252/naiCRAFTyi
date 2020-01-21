@@ -1,6 +1,3 @@
-//
-// Created by danylo on 11.12.19.
-//
 #include <iostream>
 #include <cassert>
 #include "ShaderProgram.h"

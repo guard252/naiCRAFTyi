@@ -22,18 +22,19 @@ namespace Craft
         GL::IBO ibo;
         GL::VBLayout layout;
         const GL::ShaderProgram& shader;
+        glm::vec3 chunkShifting;
+
     private:
         int lastAddedVertices{0};
     public:
-        ChunkMesh(const GL::ShaderProgram& shader);
-        void GenerateMesh(BlockType[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE]);
+        ChunkMesh(const GL::ShaderProgram& shader, ChunkPosition pos);
+        void GenerateMesh();
         void Render();
-        void AddFace(const MeshSquare sq, BlockType type, BlockPosition position);
+        void AddFace(const MeshSquare sq, BlockType type, BlockChunkPosition position);
     private:
         void SetTexIndex(MeshSquare sq, GLuint index);
         GLuint GetTexIndex(const MeshSquare sq, BlockType type);
-        void MoveBlockToPosition(MeshSquare sq, BlockPosition pos);
-        void GenerateVector(BlockType[CHUNK_SIZE][CHUNK_SIZE][CHUNK_SIZE]);
+        void MoveBlockToPosition(MeshSquare sq, BlockChunkPosition pos);
         void AddIndices();
     };
 }

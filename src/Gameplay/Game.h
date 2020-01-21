@@ -4,7 +4,7 @@
 #include "GLFW/glfw3.h"
 #include "../Player/Controller.h"
 #include "../Player/Camera.h"
-#include "GameObjects/DirtBlock.h"
+#include "GameObjects/Terrain.h"
 namespace Craft
 {
     class Game
@@ -14,19 +14,17 @@ namespace Craft
         GLFWwindow* window;
 
     private:
-        // TODO: Replace absolute path with relative
-        GL::ShaderProgram blockShader{"/home/danylo/dev/naiCRAFTyi/shaders/vertex.vert", "/home/danylo/dev/naiCRAFTyi/shaders/fragment.frag"};
+        GL::ShaderProgram blockShader{"../shaders/vertex.vert", "../shaders/fragment.frag"};
         Camera camera;
         Controller controller;
-        glm::mat4 projection{glm::perspective(glm::radians(60.0f), (float)width/(float)height, 0.1f, 100.0f)};
+        glm::mat4 projection{glm::perspective(glm::radians(60.0f), (float)width/(float)height, 0.1f, 10.0f)};
+        GL::ArrayTexture texPack;
     private:
         void ChangeProjectionOnResize(GLFWwindow* window);
     public:
         Game(GLFWwindow * window);
         int Run();
 
-
-        friend class Controller;
     };
 }
 
