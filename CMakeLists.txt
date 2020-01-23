@@ -31,15 +31,15 @@ add_executable(naiCRAFTyi src/main.cpp
         src/Gameplay/Game.h
         src/Player/Controller.cpp
         src/Player/Controller.h
-        src/Gameplay/GameObjects/Chunk.cpp
-        src/Gameplay/GameObjects/Chunk.h
+        src/Gameplay/World/Chunk.cpp
+        src/Gameplay/World/Chunk.h
         src/GLAbstraction/ArrayTexture.cpp
         src/GLAbstraction/ArrayTexture.h
-        src/Gameplay/GameObjects/ChunkTypedefs.h
-        src/Gameplay/GameObjects/ChunkConstants.h
-        src/Gameplay/GameObjects/ChunkMesh.cpp
-        src/Gameplay/GameObjects/ChunkMesh.h
+        src/Gameplay/World/ChunkTypedefs.h
+        src/Gameplay/World/ChunkConstants.h
+        src/Gameplay/World/ChunkMesh.cpp
+        src/Gameplay/World/ChunkMesh.h
         src/GLAbstraction/IBO.cpp
-        src/GLAbstraction/IBO.h src/Gameplay/GameObjects/Terrain.cpp src/Gameplay/GameObjects/Terrain.h src/Others/KeyFunctions.h src/Gameplay/GameObjects/Coordinates.h src/Gameplay/GameObjects/Coordinates.cpp)
+        src/GLAbstraction/IBO.h src/Gameplay/World/Terrain.cpp src/Gameplay/World/Terrain.h src/Others/KeyFunctions.h src/Gameplay/World/Coordinates.h src/Gameplay/World/Coordinates.cpp src/Others/Math.cpp src/Others/Math.h)
 
 target_link_libraries(naiCRAFTyi -lglfw -lGL -lGLEW)

@@ -135,37 +135,43 @@
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.cpp">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.cpp">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
-		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h">
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/Math.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/Math.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Player/Camera.cpp">

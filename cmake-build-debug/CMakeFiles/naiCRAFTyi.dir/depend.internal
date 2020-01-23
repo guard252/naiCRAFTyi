@@ -40,16 +40,16 @@ CMakeFiles/naiCRAFTyi.dir/src/Gameplay/Game.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.cpp
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.h
  /home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Controller.h
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Chunk.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
@@ -57,15 +57,15 @@ CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Chunk.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.cpp
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.cpp
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.h
  /home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/ChunkMesh.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
@@ -73,20 +73,20 @@ CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/ChunkMesh.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.cpp
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.cpp
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h
  /home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Coordinates.cpp.o
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.cpp
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Coordinates.cpp.o
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.cpp
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h
  /home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
-CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Terrain.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ArrayTexture.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/IBO.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
@@ -94,14 +94,17 @@ CMakeFiles/naiCRAFTyi.dir/src/Gameplay/GameObjects/Terrain.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VAO.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.cpp
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.cpp
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.h
  /home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
+CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.o
+ /home/danylo/dev/naiCRAFTyi/src/Others/Math.cpp
+ /home/danylo/dev/naiCRAFTyi/src/Others/Math.h
 CMakeFiles/naiCRAFTyi.dir/src/Player/Camera.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/ShaderProgram.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/Tools.h
@@ -116,12 +119,12 @@ CMakeFiles/naiCRAFTyi.dir/src/Player/Controller.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.h
  /home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Controller.cpp
@@ -135,12 +138,12 @@ CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBLayout.h
  /home/danylo/dev/naiCRAFTyi/src/GLAbstraction/VBO.h
  /home/danylo/dev/naiCRAFTyi/src/Gameplay/Game.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Chunk.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkConstants.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkMesh.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/ChunkTypedefs.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Coordinates.h
- /home/danylo/dev/naiCRAFTyi/src/Gameplay/GameObjects/Terrain.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Chunk.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkConstants.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkMesh.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/ChunkTypedefs.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Coordinates.h
+ /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.h
  /home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Camera.h
  /home/danylo/dev/naiCRAFTyi/src/Player/Controller.h

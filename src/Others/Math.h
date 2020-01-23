@@ -1,15 +1,9 @@
-//
-// Created by danylo on 22/01/2020.
-//
+#ifndef NAICRAFTYI_MATH_H
+#define NAICRAFTYI_MATH_H
+#include <algorithm>
 
-#ifndef NAICRAFTYI_MAHT_H
-#define NAICRAFTYI_MAHT_H
-
-
-class Maht
-{
-
-};
+float LinearInterpolation(float point1, float value1, float point2, float value2, float desiredPoint);
 
 
-#endif //NAICRAFTYI_MAHT_H
+
+#endif //NAICRAFTYI_MATH_H

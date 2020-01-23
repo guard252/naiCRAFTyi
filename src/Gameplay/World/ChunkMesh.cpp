@@ -19,17 +19,14 @@ namespace Craft
 
     void ChunkMesh::GenerateMesh()
     {
+        vao.Bind();
         vbo.GenerateBuffer(sizeof(float) * mesh.size(), &mesh[0]);
         ibo.GenerateBuffer(indices.size(), &indices[0]);
-        ibo.Bind();
-        vao.Bind();
         vao.AddBuffer(vbo, layout);
     }
 
     void ChunkMesh::Render()const
     {
-        vbo.Bind();
-        ibo.Bind();
         vao.Bind();
         shader.Bind();
         GLCall(glDrawElements(GL_TRIANGLES, indices.size(), GL_UNSIGNED_INT, 0));

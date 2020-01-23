@@ -4,7 +4,7 @@
 #include "GLFW/glfw3.h"
 #include "../Player/Controller.h"
 #include "../Player/Camera.h"
-#include "GameObjects/Terrain.h"
+#include "World/Terrain.h"
 namespace Craft
 {
     class Game

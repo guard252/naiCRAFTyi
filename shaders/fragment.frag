@@ -10,4 +10,5 @@ out vec4 color;
 void main()
 {
    color = texture(slot, vec3(v_TexPosition, v_TexIndex));
+
 }

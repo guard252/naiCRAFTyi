@@ -5,7 +5,7 @@
 
 /*
  * Hash function and equality function definitions
- * for glm::vec3 key
+ * for glm::vec3 and std::pair key
  */
 struct KeyFunctions
 {
@@ -14,10 +14,17 @@ struct KeyFunctions
         return std::hash<int>()(k.x) ^ std::hash<int>()(k.y)  ^ std::hash<int>()(k.z);
     }
 
+    template<class T, class V>
+    size_t operator()(const std::pair<T, V>& k)const
+    {
+        return std::hash<int>()(k.first) ^ std::hash<int>()(k.second);
+    }
+
     bool operator()(const glm::vec3& a, const glm::vec3& b)const
     {
         return a.x == b.x && a.y == b.y && a.z == b.z;
     }
 };
+
 
 #endif //NAICRAFTYI_KEYFUNCTIONS_H
