@@ -29,7 +29,7 @@ namespace Craft
     public:
         ChunkMesh(const GL::ShaderProgram& shader, ChunkPosition pos);
         void GenerateMesh();
-        void Render();
+        void Render()const;
         void AddFace(const MeshSquare sq, BlockType type, BlockChunkPosition position);
     private:
         void SetTexIndex(MeshSquare sq, GLuint index);

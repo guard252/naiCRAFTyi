@@ -15,10 +15,10 @@ namespace Craft
     public:
         void GenerateCubeChunk();
         Chunk(const GL::ShaderProgram& _shader, ChunkPosition chunkPosition, Terrain* ter);
-        void Draw();
+        void Draw()const;
         void CreateMesh();
         BlockType GetBlock(int x, int y, int z)const;
-
+        BlockType GetBlockUnsafe(int x, int y, int z)const;
     };
 }
 

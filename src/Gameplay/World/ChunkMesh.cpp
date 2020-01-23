@@ -26,7 +26,7 @@ namespace Craft
         vao.AddBuffer(vbo, layout);
     }
 
-    void ChunkMesh::Render()
+    void ChunkMesh::Render()const
     {
         vbo.Bind();
         ibo.Bind();
@@ -38,15 +38,15 @@ namespace Craft
 
     void ChunkMesh::AddFace(const MeshSquare sq, BlockType type, BlockChunkPosition position)
     {
-        {
             MeshSquare face;
             memcpy(face, sq, sizeof(float) * SQUARE_ATTR_COUNT);
             GLuint index = GetTexIndex(sq, type);
             SetTexIndex(face, index);
             MoveBlockToPosition(face, position);
             mesh.insert(mesh.end(), std::begin(face), std::end(face));
+
             AddIndices();
-        }
+
     }
 
     /*
