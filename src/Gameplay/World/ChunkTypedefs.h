@@ -19,6 +19,9 @@ namespace Craft
     class Chunk;
 
     using ChunkTable = std::unordered_map<ChunkPosition, Chunk*, KeyFunctions, KeyFunctions>;
+
+    using RandVectors = std::vector<std::unordered_map<glm::vec2, glm::vec2, KeyFunctions, KeyFunctions>>;
+
 }
 
 

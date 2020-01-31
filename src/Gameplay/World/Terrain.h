@@ -2,8 +2,11 @@
 #define NAICRAFTYI_TERRAIN_H
 #include "Chunk.h"
 #include <map>
+#include <array>
 #include <unordered_map>
-
+#include <cmath>
+#include "../../Others/Random.h"
+#include "../../Others/Math.h"
 
 namespace Craft
 {
@@ -12,18 +15,23 @@ namespace Craft
         const GL::ShaderProgram& shader;
         ChunkTable chunks;
         std::unordered_map<std::pair<int, int>, glm::vec2, KeyFunctions> randVectors;
+        std::unordered_map<ChunkPosition, HeightMap, KeyFunctions, KeyFunctions> heightMaps;
+    private:
         const int TERRAIN_PRIMARY_WIDTH = 10;
         const int TERRAIN_PRIMARY_LENGTH = 10;
-        const int TERRAIN_DEPTH = 10;
+        const int TERRAIN_DEPTH = 1;
     private:
         void GenerateWorldWithPerlinNoise();
         void GenerateRandomVectors();
+        HeightMap GenerateColumnHeightMap(const glm::vec2& column);
     public:
         Terrain(const GL::ShaderProgram& _shader);
         ~Terrain();
         void GeneratePlaneWorld();
         BlockType GetBlock(BlockWorldPosition position);
         BlockType GetBlock(ChunkPosition ch, BlockChunkPosition bl);
+        void SetBlockUnsafe(ChunkPosition ch, BlockChunkPosition bl, BlockType type);
+        void SetHeightMap();
         void Render();
     };
 }

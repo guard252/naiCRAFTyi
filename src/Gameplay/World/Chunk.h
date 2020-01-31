@@ -2,6 +2,7 @@
 #define NAICRAFTYI_CHUNK_H
 #include "ChunkMesh.h"
 #include "Coordinates.h"
+
 namespace Craft
 {
     class Terrain;
@@ -19,6 +20,7 @@ namespace Craft
         void CreateMesh();
         BlockType GetBlock(int x, int y, int z)const;
         BlockType GetBlockUnsafe(int x, int y, int z)const;
+        void SetBlock(BlockChunkPosition pos, BlockType);
     };
 }
 

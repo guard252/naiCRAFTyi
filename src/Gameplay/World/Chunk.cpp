@@ -17,10 +17,12 @@ namespace Craft
             {
                 for (int z = 0; z < CHUNK_SIZE; z++)
                 {
-                    blocks[x][y][z] = BlockType::DIRT;
+                    blocks[x][y][z] = BlockType::AIR;
                 }
             }
         }
+
+     //  memset(&blocks[0][0][0], 0, blocks.size() * sizeof(BlockType));
     }
 
     void Chunk::CreateMesh()
@@ -93,6 +95,13 @@ namespace Craft
     {
         return blocks[x][y][z];
     }
+
+    void Chunk::SetBlock(BlockChunkPosition pos, BlockType type)
+    {
+        blocks[pos.x][pos.y][pos.z] = type;
+    }
+
+
 
 
     void Chunk::Draw()const
