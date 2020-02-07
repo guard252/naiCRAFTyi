@@ -101,8 +101,13 @@ namespace Craft
         blocks[pos.x][pos.y][pos.z] = type;
     }
 
-
-
+    void Chunk::SetColumn(BlockChunkPosition highestPoint, BlockType type)
+    {
+        for(; highestPoint.y  >= 0; highestPoint.y--)
+        {
+            SetBlock(highestPoint, type);
+        }
+    }
 
     void Chunk::Draw()const
     {

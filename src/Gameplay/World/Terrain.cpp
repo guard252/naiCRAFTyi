@@ -7,7 +7,7 @@ namespace Craft
     Terrain::Terrain(const GL::ShaderProgram &_shader) : shader{_shader}
     {
         GeneratePlaneWorld();
-     //   GenerateWorldWithPerlinNoise();
+     //   GenerateSmoothWorld();
     }
 
     Terrain::~Terrain()
@@ -33,7 +33,7 @@ namespace Craft
                 }
             }
         }
-        GenerateWorldWithPerlinNoise();
+        GenerateSmoothWorld();
         for (int x = 1; x < TERRAIN_PRIMARY_WIDTH + 1; x++)
         {
             for (int y = 1; y < TERRAIN_DEPTH + 1; y++)
@@ -49,9 +49,17 @@ namespace Craft
 
     }
 
-    void Terrain::GenerateWorldWithPerlinNoise()
+    void Terrain::GenerateSmoothWorld()
     {
-        GenerateRandomVectors();
+        heightMap = GenerateWorldHeightMap(TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE, TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE);
+        for(int x = 0; x < TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE; x++)
+        {
+            for(int z = 0; z < TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE; z++)
+            {
+                SetColumn(BlockWorldPosition{x, heightMap[x][z], z}, BlockType::DIRT);
+            }
+        }
+        /*GenerateRandomVectors();
         for (int i = 1; i < TERRAIN_PRIMARY_WIDTH + 1; i += 1)
         {
             for (int j = 1; j < TERRAIN_PRIMARY_LENGTH + 1; j += 1)
@@ -71,7 +79,7 @@ namespace Craft
             }
         }
         SetHeightMap();
-
+*/
     }
 
     /*
@@ -79,7 +87,7 @@ namespace Craft
      * Starting number of vectors will be:
      * (TERRAIN_PRIMARY_WIDTH + 1) * (TERRAIN_PRIMARY_HEIGHT + 1)
      */
-    void Terrain::GenerateRandomVectors()
+   /* void Terrain::GenerateRandomVectors()
     {
         for (int i = 1; i < TERRAIN_PRIMARY_WIDTH + 2; i++)
         {
@@ -152,7 +160,7 @@ namespace Craft
                 }
             }
         }
-    }
+    }*/
 
     void Terrain::Render()
     {
@@ -214,9 +222,25 @@ namespace Craft
 
     }
 
+    void Terrain::SetBlockUnsafe(BlockWorldPosition pos, BlockType type)
+    {
+        ChunkPosition ch = GetChunkPos(pos);
+        BlockChunkPosition bl = GetBlockLocalPos(pos);
+        ChunkTable::iterator it;
+        chunks.find(ch)->second->SetBlock(bl, type);
+    }
+
     void Terrain::SetBlockUnsafe(ChunkPosition ch, BlockChunkPosition bl, BlockType type)
     {
         ChunkTable::iterator it;
         chunks.find(ch)->second->SetBlock(bl, type);
+    }
+
+    void Terrain::SetColumn(BlockWorldPosition highestPoint, BlockType type)
+    {
+        ChunkPosition ch = GetChunkPos(highestPoint);
+        BlockChunkPosition bl = GetBlockLocalPos(highestPoint);
+        chunks.find(ch)->second->SetColumn(bl, type);
+
     }
 }

@@ -21,6 +21,7 @@ namespace Craft
         BlockType GetBlock(int x, int y, int z)const;
         BlockType GetBlockUnsafe(int x, int y, int z)const;
         void SetBlock(BlockChunkPosition pos, BlockType);
+        void SetColumn(BlockChunkPosition hightstPoint, BlockType type);
     };
 }
 
