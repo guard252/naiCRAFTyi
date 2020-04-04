@@ -165,6 +165,12 @@
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/Terrain.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/TerrainGenertion.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Gameplay/World/TerrainGenertion.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/KeyFunctions.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
@@ -172,6 +178,12 @@
 			<Option target="naiCRAFTyi"/>
 		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/Math.h">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/Random.cpp">
+			<Option target="naiCRAFTyi"/>
+		</Unit>
+		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Others/Random.h">
 			<Option target="naiCRAFTyi"/>
 		</Unit>
 		<Unit filename="/home/danylo/dev/naiCRAFTyi/src/Player/Camera.cpp">

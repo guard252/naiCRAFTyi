@@ -6,8 +6,10 @@ namespace Craft
 {
     Terrain::Terrain(const GL::ShaderProgram &_shader) : shader{_shader}
     {
-        GeneratePlaneWorld();
-     //   GenerateSmoothWorld();
+        std::thread world_generation_thread(&Terrain::CreateWorld, this);
+
+        //CreateWorld();
+        world_generation_thread.join();
     }
 
     Terrain::~Terrain()
@@ -19,7 +21,7 @@ namespace Craft
 
     }
 
-    void Terrain::GeneratePlaneWorld()
+    void Terrain::CreateWorld()
     {
         for (int x = 1; x < TERRAIN_PRIMARY_WIDTH + 1; x++)
         {
@@ -51,116 +53,29 @@ namespace Craft
 
     void Terrain::GenerateSmoothWorld()
     {
-        heightMap = GenerateWorldHeightMap(TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE, TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE);
-        for(int x = 0; x < TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE; x++)
+        int octavesCount = 5;
+        float frequency = 2048;
+        int amplitude = 128;
+
+        heightMap = GenerateWorldHeightMap(TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE, TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE,
+                frequency/=2, amplitude/=2);
+        for(int i = 0; i < octavesCount - 1; i++)
         {
-            for(int z = 0; z < TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE; z++)
+            heightMap = AddHeightMaps(heightMap,
+                    GenerateWorldHeightMap(TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE, TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE,
+                            frequency/=2, amplitude/=2));
+        }
+        //heightMap = GenerateWorldHeightMap(TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE, TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE);
+        for (int x = 0; x < TERRAIN_PRIMARY_WIDTH * CHUNK_SIZE; x++)
+        {
+            for (int z = 0; z < TERRAIN_PRIMARY_LENGTH * CHUNK_SIZE; z++)
             {
                 SetColumn(BlockWorldPosition{x, heightMap[x][z], z}, BlockType::DIRT);
             }
         }
-        /*GenerateRandomVectors();
-        for (int i = 1; i < TERRAIN_PRIMARY_WIDTH + 1; i += 1)
-        {
-            for (int j = 1; j < TERRAIN_PRIMARY_LENGTH + 1; j += 1)
-            {
-                auto a = GenerateColumnHeightMap({i, j});
-                heightMaps.insert(std::make_pair(ChunkPosition(i, 1, j), a));
 
-            }
-        }
-        for (int i = 1; i < TERRAIN_PRIMARY_WIDTH + 1; i += 1)
-        {
-            for (int j = 1; j < TERRAIN_PRIMARY_LENGTH + 1; j += 1)
-            {
-                auto a = GenerateColumnHeightMap({i, j});
-                heightMaps.insert(std::make_pair(ChunkPosition(i, 1, j), a));
-
-            }
-        }
-        SetHeightMap();
-*/
     }
 
-    /*
-     * Generates pseudo-random vectors for every chunk angle in terrain
-     * Starting number of vectors will be:
-     * (TERRAIN_PRIMARY_WIDTH + 1) * (TERRAIN_PRIMARY_HEIGHT + 1)
-     */
-   /* void Terrain::GenerateRandomVectors()
-    {
-        for (int i = 1; i < TERRAIN_PRIMARY_WIDTH + 2; i++)
-        {
-            for (int j = 1; j < TERRAIN_PRIMARY_LENGTH + 2; j++)
-            {
-
-                if (randVectors.find(std::make_pair(i, j)) == randVectors.end())
-                {
-                    randVectors.insert(std::make_pair(std::make_pair(i, j),
-                                                      glm::vec2(Random::GetFloat(-0.5f, 0.5f),
-                                                              Random::GetFloat(-0.5f, 0.5f))));
-                }
-            }
-        }
-    }
-
-    HeightMap Terrain::GenerateColumnHeightMap(const glm::vec2 &column)
-    {
-        glm::vec2 top_left = randVectors.find(std::make_pair(column.x, column.y + 1))->second;
-        glm::vec2 bottom_left = randVectors.find(std::make_pair(column.x, column.y))->second;
-        glm::vec2 top_right = randVectors.find(std::make_pair(column.x + 1, column.y + 1))->second;
-        glm::vec2 bottom_right = randVectors.find(std::make_pair(column.x + 1, column.y))->second;
-
-        ChunkPosition chunk(column.x, 1, column.y);
-        HeightMap heightMap;
-
-        for (int i = 0; i < CHUNK_SIZE; i++)
-        {
-            for (int j = 0; j < CHUNK_SIZE; j++)
-            {
-                // Vectors, directed to the corners
-                glm::vec2 to_top_left    (MapToZeroOne(top_left.x - i, CHUNK_SIZE - 1),
-                        MapToZeroOne(top_left.y- j, CHUNK_SIZE - 1));
-                glm::vec2 to_bottom_left (MapToZeroOne(bottom_left.x - i, CHUNK_SIZE - 1),
-                        MapToZeroOne(bottom_left.y- j, CHUNK_SIZE - 1));
-                glm::vec2 to_top_right   (MapToZeroOne(top_right.x - i, CHUNK_SIZE - 1),
-                        MapToZeroOne(top_right.y- j, CHUNK_SIZE - 1));
-                glm::vec2 to_bottom_right(MapToZeroOne(bottom_right.x - i, CHUNK_SIZE - 1),
-                        MapToZeroOne(bottom_right.y- j, CHUNK_SIZE - 1));
-
-                //Corner values
-                float tlVal = glm::dot(to_top_left, top_left);
-                float blVal = glm::dot(to_bottom_left, bottom_left);
-                float trVal = glm::dot(to_top_right, top_right);
-                float brVal = glm::dot(to_bottom_right, bottom_right);
-
-
-                float a = blerp(tlVal, trVal, blVal, brVal, MapToZeroOne(i, CHUNK_SIZE - 1), MapToZeroOne(j, CHUNK_SIZE - 1));
-                int res = MapToBlockPosition(a, CHUNK_SIZE);
-                heightMap[i][j] = res;
-            }
-        }
-        return heightMap;
-    }
-
-    void Terrain::SetHeightMap()
-    {
-        for (int i = 1; i < TERRAIN_PRIMARY_WIDTH + 1; i++)
-        {
-            for (int j = 1; j < TERRAIN_PRIMARY_LENGTH + 1; j++)
-            {
-                for (int x = 0; x < CHUNK_SIZE; x++)
-                {
-                    for (int z = 0; z < CHUNK_SIZE; z++)
-                    {
-                        int highest = heightMaps.find({i, 1, j})->second[x][z];
-                        for(; highest >= 0; highest--)
-                        SetBlockUnsafe({i, 1, j}, {x, highest,z}, BlockType::DIRT);
-                    }
-                }
-            }
-        }
-    }*/
 
     void Terrain::Render()
     {
@@ -240,7 +155,12 @@ namespace Craft
     {
         ChunkPosition ch = GetChunkPos(highestPoint);
         BlockChunkPosition bl = GetBlockLocalPos(highestPoint);
-        chunks.find(ch)->second->SetColumn(bl, type);
+        do
+        {
+            chunks.find(ch)->second->SetColumn(bl, type);
+            bl.y = CHUNK_SIZE - 1;
+        } while(--ch.y && chunks.find(ch) != chunks.end());
+
 
     }
 }

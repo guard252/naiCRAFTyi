@@ -1,11 +1,20 @@
 #include "Math.h"
 
-float LinearInterpolation(float point1, float value1, float point2, float value2, float desiredPoint)
+/*
+ * This function maps the dot product (0.0-1.0)
+ * to the chunk position (0 - CHUNK_SIZE - 1)
+ */
+int MapToBlockPosition(float val, int max)
 {
-    float result;
-    float maxPoint = std::max(point1, point2);
-    float minPoint = point1 + point2 - maxPoint;
-    float maxValue = std::max(value1, value1);
-    float minValue = value1 + value2 - maxValue;
-    result = ((maxValue - minValue) * (desiredPoint - minPoint))/(maxPoint - minPoint);
+    return fabs(val) * (max - 1);
+}
+
+float MapToZeroOne(int val, int max)
+{
+    return float(val) / float(max);
+}
+
+float MapTo(float destMin, float destMax, float srcMin, float srcMax, float toMap)
+{
+    return destMin + ((destMax - destMin) / (srcMax - srcMin)) * (toMap - srcMin);
 }

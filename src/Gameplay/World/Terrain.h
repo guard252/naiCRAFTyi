@@ -8,7 +8,7 @@
 #include "../../Others/Random.h"
 #include "../../Others/Math.h"
 #include "TerrainGenertion.h"
-
+#include <thread>
 namespace Craft
 {
     class Terrain
@@ -19,9 +19,9 @@ namespace Craft
         //std::unordered_map<ChunkPosition, HeightMap, KeyFunctions, KeyFunctions> heightMaps;
         std::vector<std::vector<int>> heightMap;
     private:
-        const int TERRAIN_PRIMARY_WIDTH = 10;
-        const int TERRAIN_PRIMARY_LENGTH = 10;
-        const int TERRAIN_DEPTH = 1;
+        const int TERRAIN_PRIMARY_WIDTH = 16;
+        const int TERRAIN_PRIMARY_LENGTH = 16;
+        const int TERRAIN_DEPTH = 8;
     private:
         void GenerateSmoothWorld();
        // void GenerateRandomVectors();
@@ -29,7 +29,7 @@ namespace Craft
     public:
         Terrain(const GL::ShaderProgram& _shader);
         ~Terrain();
-        void GeneratePlaneWorld();
+        void CreateWorld();
         BlockType GetBlock(BlockWorldPosition position);
         BlockType GetBlock(ChunkPosition ch, BlockChunkPosition bl);
         void SetBlockUnsafe(BlockWorldPosition pos, BlockType type);

@@ -14,7 +14,6 @@ namespace Craft
             "../textures/cobblestone.png",
             "../textures/bedrock.png"}
     {
-        glfwMaximizeWindow(window);
     }
 
     int Game::Run()

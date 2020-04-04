@@ -103,6 +103,9 @@ namespace Craft
 
     void Chunk::SetColumn(BlockChunkPosition highestPoint, BlockType type)
     {
+        if(position.y == 1) type = BlockType ::BEDROCK;
+        if(position.y == 2) type = BlockType::COBBLESTONE;
+        else if(position.y == 3) type = BlockType::SAND;
         for(; highestPoint.y  >= 0; highestPoint.y--)
         {
             SetBlock(highestPoint, type);

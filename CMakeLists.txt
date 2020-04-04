@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 project(naiCRAFTyi)
 
 set(CMAKE_CXX_STANDARD 14)
-
+FIND_PACKAGE(Threads)
 # Add source files
 file(GLOB_RECURSE SOURCE_FILES
         ${CMAKE_SOURCE_DIR}/src/*.c
@@ -40,6 +40,6 @@ add_executable(naiCRAFTyi src/main.cpp
         src/Gameplay/World/ChunkMesh.cpp
         src/Gameplay/World/ChunkMesh.h
         src/GLAbstraction/IBO.cpp
-        src/GLAbstraction/IBO.h src/Gameplay/World/Terrain.cpp src/Gameplay/World/Terrain.h src/Others/KeyFunctions.h src/Gameplay/World/Coordinates.h src/Gameplay/World/Coordinates.cpp src/Others/Math.cpp src/Others/Math.h)
+        src/GLAbstraction/IBO.h src/Gameplay/World/Terrain.cpp src/Gameplay/World/Terrain.h src/Others/KeyFunctions.h src/Gameplay/World/Coordinates.h src/Gameplay/World/Coordinates.cpp src/Others/Math.cpp src/Others/Math.h src/Others/Random.cpp src/Others/Random.h src/Gameplay/World/TerrainGenertion.cpp src/Gameplay/World/TerrainGenertion.h)
 
-target_link_libraries(naiCRAFTyi -lglfw -lGL -lGLEW)
+target_link_libraries(naiCRAFTyi -lglfw -lGL -lGLEW -pthread)

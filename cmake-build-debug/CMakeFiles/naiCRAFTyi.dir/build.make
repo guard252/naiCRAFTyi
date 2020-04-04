@@ -265,6 +265,32 @@ CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Others/Math.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.s
 
+CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.o: ../src/Others/Random.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Others/Random.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Others/Random.cpp > CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Others/Random.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.s
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.o: CMakeFiles/naiCRAFTyi.dir/flags.make
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.o: ../src/Gameplay/World/TerrainGenertion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.o -c /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/TerrainGenertion.cpp
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/TerrainGenertion.cpp > CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.i
+
+CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/danylo/dev/naiCRAFTyi/src/Gameplay/World/TerrainGenertion.cpp -o CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.s
+
 # Object files for target naiCRAFTyi
 naiCRAFTyi_OBJECTS = \
 "CMakeFiles/naiCRAFTyi.dir/src/main.cpp.o" \
@@ -282,7 +308,9 @@ naiCRAFTyi_OBJECTS = \
 "CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o" \
 "CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Terrain.cpp.o" \
 "CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Coordinates.cpp.o" \
-"CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.o"
+"CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.o" \
+"CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.o"
 
 # External object files for target naiCRAFTyi
 naiCRAFTyi_EXTERNAL_OBJECTS =
@@ -303,9 +331,11 @@ naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/GLAbstraction/IBO.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Terrain.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Coordinates.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.o
+naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.o
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/build.make
 naiCRAFTyi: CMakeFiles/naiCRAFTyi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable naiCRAFTyi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/danylo/dev/naiCRAFTyi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable naiCRAFTyi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/naiCRAFTyi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -447,6 +447,33 @@ src/Gameplay/World/Terrain.cpp.s:
 	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/Terrain.cpp.s
 .PHONY : src/Gameplay/World/Terrain.cpp.s
 
+src/Gameplay/World/TerrainGenertion.o: src/Gameplay/World/TerrainGenertion.cpp.o
+
+.PHONY : src/Gameplay/World/TerrainGenertion.o
+
+# target to build an object file
+src/Gameplay/World/TerrainGenertion.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.o
+.PHONY : src/Gameplay/World/TerrainGenertion.cpp.o
+
+src/Gameplay/World/TerrainGenertion.i: src/Gameplay/World/TerrainGenertion.cpp.i
+
+.PHONY : src/Gameplay/World/TerrainGenertion.i
+
+# target to preprocess a source file
+src/Gameplay/World/TerrainGenertion.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.i
+.PHONY : src/Gameplay/World/TerrainGenertion.cpp.i
+
+src/Gameplay/World/TerrainGenertion.s: src/Gameplay/World/TerrainGenertion.cpp.s
+
+.PHONY : src/Gameplay/World/TerrainGenertion.s
+
+# target to generate assembly for a file
+src/Gameplay/World/TerrainGenertion.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Gameplay/World/TerrainGenertion.cpp.s
+.PHONY : src/Gameplay/World/TerrainGenertion.cpp.s
+
 src/Others/Math.o: src/Others/Math.cpp.o
 
 .PHONY : src/Others/Math.o
@@ -473,6 +500,33 @@ src/Others/Math.s: src/Others/Math.cpp.s
 src/Others/Math.cpp.s:
 	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Others/Math.cpp.s
 .PHONY : src/Others/Math.cpp.s
+
+src/Others/Random.o: src/Others/Random.cpp.o
+
+.PHONY : src/Others/Random.o
+
+# target to build an object file
+src/Others/Random.cpp.o:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.o
+.PHONY : src/Others/Random.cpp.o
+
+src/Others/Random.i: src/Others/Random.cpp.i
+
+.PHONY : src/Others/Random.i
+
+# target to preprocess a source file
+src/Others/Random.cpp.i:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.i
+.PHONY : src/Others/Random.cpp.i
+
+src/Others/Random.s: src/Others/Random.cpp.s
+
+.PHONY : src/Others/Random.s
+
+# target to generate assembly for a file
+src/Others/Random.cpp.s:
+	$(MAKE) -f CMakeFiles/naiCRAFTyi.dir/build.make CMakeFiles/naiCRAFTyi.dir/src/Others/Random.cpp.s
+.PHONY : src/Others/Random.cpp.s
 
 src/Player/Camera.o: src/Player/Camera.cpp.o
 
@@ -600,9 +654,15 @@ help:
 	@echo "... src/Gameplay/World/Terrain.o"
 	@echo "... src/Gameplay/World/Terrain.i"
 	@echo "... src/Gameplay/World/Terrain.s"
+	@echo "... src/Gameplay/World/TerrainGenertion.o"
+	@echo "... src/Gameplay/World/TerrainGenertion.i"
+	@echo "... src/Gameplay/World/TerrainGenertion.s"
 	@echo "... src/Others/Math.o"
 	@echo "... src/Others/Math.i"
 	@echo "... src/Others/Math.s"
+	@echo "... src/Others/Random.o"
+	@echo "... src/Others/Random.i"
+	@echo "... src/Others/Random.s"
 	@echo "... src/Player/Camera.o"
 	@echo "... src/Player/Camera.i"
 	@echo "... src/Player/Camera.s"

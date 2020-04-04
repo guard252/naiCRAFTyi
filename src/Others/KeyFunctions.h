@@ -14,15 +14,28 @@ struct KeyFunctions
         return std::hash<int>()(k.x) ^ std::hash<int>()(k.y)  ^ std::hash<int>()(k.z);
     }
 
+    bool operator()(const glm::vec3& a, const glm::vec3& b)const
+    {
+        return a.x == b.x && a.y == b.y && a.z == b.z;
+    }
+
     template<class T, class V>
     size_t operator()(const std::pair<T, V>& k)const
     {
         return std::hash<int>()(k.first) ^ std::hash<int>()(k.second);
     }
+};
 
-    bool operator()(const glm::vec3& a, const glm::vec3& b)const
+struct KeyFunctions1
+{
+    size_t operator()(const glm::vec2& k)const
     {
-        return a.x == b.x && a.y == b.y && a.z == b.z;
+        return std::hash<int>()(k.x) ^ std::hash<int>()(k.y);
+    }
+
+    bool operator()(const glm::vec2& a, const glm::vec2& b)const
+    {
+        return a.x == b.x && a.y == b.y;
     }
 };
 
